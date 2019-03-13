@@ -56,12 +56,4 @@ Fill out the form below and I'll be in touch within one business day.
 <div class="d-flex align-items-center">
 <input class="btn btn-primary btn-lg" style="font-style: bold;" type="submit" value="Request a FREE strategy session" id="strategySessionSubmit"></div>
 </div>
-<!-- Button click tracking -->
-<script type="text/javascript">
-			var link = document.getElementById('topStrategySession');
-			analytics.trackLink(link, 'Strategy Form Submission', {
-				pageTitle: document.title
-			});
-		</script>
-		<!-- End Button click tracking -->
-	</form>
+</form>
