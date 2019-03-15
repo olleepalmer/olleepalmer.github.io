@@ -1,8 +1,8 @@
 ---
 layout: default-no-book
-title: "FREE strategy session"
-hero-header: "Strategy session"
-hero-subhead: "Book a FREE, no obligation 30 minute call to discuss how I can help you radically increase your sales, leads and profits"
+title: "Schedule a consultation"
+hero-header: "Schedule a consultation"
+hero-subhead: "Book a FREE, no obligation 30 minute call to discuss how I can help you increase your conversion rate."
 hero-p: ""
 permalink: "/services/strategy-session"
 ---
@@ -54,6 +54,6 @@ Fill out the form below and I'll be in touch within one business day.
 </div>
 <div class="form-group">
 <div class="d-flex align-items-center">
-<input class="btn btn-primary btn-lg" style="font-style: bold;" type="submit" value="Request a FREE strategy session" id="strategySessionSubmit"></div>
+<input class="btn btn-primary btn-lg" style="font-style: bold;" type="submit" value="Schedule a FREE consultation" id="strategySessionSubmit"></div>
 </div>
 </form>
