@@ -1,12 +1,14 @@
 ---
 layout: default-no-book
 title: "Schedule a consultation"
-hero-header: "Schedule a consultation"
-hero-subhead: "Book a FREE, no obligation 30 minute call to discuss how I can help you increase your conversion rate."
+hero-header: "Interested in working together? "
 hero-p: ""
-permalink: "/services/strategy-session"
+permalink: "/services/free-consultation"
 ---
 
+<p>
+Fill out your details below to organise a preliminary 30 minute call.
+</p>
 <p>
 On the call, we will discuss:
 </p>
@@ -15,13 +17,7 @@ On the call, we will discuss:
 <li>An overview of your business and conversion challenges</li>
 <li>How my methodology could best be applied to your business</li>
 </ul>
-<p>There’ll be <strong>no commitment or obligation</strong> to use my services.</p>
-<div class="alert alert-warning" role="alert" style="background-color: #FFFF88">
-<p class="mb-0">
-I only the capacity take on just one or two new clients right now:
-<br /><br />
-If you think my services could be a good fit for your business, please get in touch right away.</p></div>
-<h3 class="mt-5">Leave your details</h3>
+<h2 class="mt-5">Leave your details</h2>
 <p>
 Fill out the form below and I'll be in touch within one business day.
 </p>
@@ -47,8 +43,8 @@ Fill out the form below and I'll be in touch within one business day.
 </div>
 <div class="col-md-10">
 <div class="form-group">
-<label>What's your biggest conversion challenge?</label>
-<textarea placeholder="" name="message"></textarea>
+<label>How can I help?</label>
+<textarea placeholder="The more detail the better" name="message"></textarea>
 </div>
 </div>
 </div>

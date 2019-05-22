@@ -1,38 +1,89 @@
 ---
 layout: services
-title: Conversion Rate Optimisation, CRO, A/B testing, Analytics, User research
-hero-header: "How many customers did you talk to when building your website?"
-hero-subhead: "If the answer is 'zero' you're not alone."
-hero-p:  "The big problem with so many websites is that they're written, designed and built without anyone actually bothering to talk to the people who going to use them.
-<br /><br />
-Rather than using genuine customer insight, they substitute ‘expert opinion’, generic ‘best practise’ and mindlessly copying the mistakes of their competitors.
-<br /><br />
-It's depressing.
-<br /><br />
-Instead, I'll help you to understand your customers and their needs better to boost your conversion rate, increase customer satisfaction and improve team efficiency.
-"
+title: "Melbourne CRO consultant, Conversion Rate Optimisation"
+permalink: "/services"
+hero-header: "Services"
+
+
+
+hero-subhead: "I help my clients to make their existing websites, apps and digital services more usable, more delightful and more profitable."
+hero-p: "I am typically engaged to help my clients: increase their conversion rate, tune-up their analytics, build or scale an optimisation program."
 ---
-<h3>Stop guessing and start testing</h3>
+
+
+
 <p>
-Working to understand what existing visitors to your site find annoying, difficult, or confusing can reveal incredible opportunities to increase conversion rate, sales and revenue.
+The following is a brief overview of some of the overlapping techniques that I can use to help you get the best results out of your website, app and other digital properties:</p>
+
+<h2 class="mt-5">
+Experimentation 📈</h2>
+
+<p>
+I help my clients to make intelligent, data-informed decisions through experimentation with A/B and multivariate testing.
 </p>
-<h3>Make better decisions</h3>
 <p>
-Forget about guessing about what's right for your customers.
+By carefully designing hypothesis-driven experiments we can trial alternative designs, messages, product features (and just about anything else you can think about it) on your real live site, with your real users, in real time.
 </p>
 <p>
-Using hypothesis driven experimentation, I'll help you to make intelligent, data-driven decisions about creating the best customer experience.
+I've used A/B testing to help:
+</p>
+<ul class="list">
+<li>
+Identify the right commercial threshold for offering free postage for a department store
+</li>
+<li>
+Reduce in-bound customer support calls for a telco
+</li>
+<li>
+Increase home loan appointments for a bank
+</li>
+<p>
+...as well as plenty more across a diverse range of industries. 
 </p>
 <p>
-From small copy tweaks to large functional deployments and design changes, we'll deploy variations that allow you to ensure that you're best meeting customer needs.
+<a href="/services/free-consultation">Get in touch</a> for more details.
 </p>
 
 
 
-<h3>Incremental transformation</h3>
+<h2 class="mt-5">User research 👪</h2>
 <p>
-The days of launching a brand new website from scratch and hoping for the best are dead as... disco (disco revival notwithstanding).
+If there's a better way to understand the strengths and weaknesses of a digital product than by spending 10 minutes showing it to real users, then I haven't yet found it.
 </p>
 <p>
-Instead of radical revolution, I'll help you to make small, incremental and measured changes to your site to help you establish the ROI of any new feature or development.
+I can help with:
 </p>
+<ul class="list">
+<li>Usability testing</li>
+<li>Focus groups</li>
+<li>Competitor evaluation & benchmarking</li>
+</ul>
+<h2 class="mt-5">Analytics 📊 </h2>
+<p>
+As the old saying goes, "If you can’t measure it, you can’t manage it."
+</p>
+<p>
+I'll help you work out what you need to measure and how to apply the learnings from your data.
+</p>
+<p>
+By aligning business goals with a framework of measurable outcomes, I'll help you understand your on-going business performance, uncover weaknesses, threats and opportunities.
+</p>
+<p>
+I'm experienced with Google Analytics/GTM, Adobe Analytics, Segment as well as Heap, Mixpanel and Ampltiude. 
+
+</p>
+<h2 class="mt-5">
+Consulting & training 💼 
+</h2>
+<p>
+I do lots of different work helping clients to get the best out of their website, their team and their tools.
+</p>
+<p>
+Here's a selection of the things that I typically help with:
+</p>
+<ul class="list">
+<li>Vendor selection
+<li>Building & scaling optimisation programs
+<li>Measurement strategy
+<li>Team training
+</ul>

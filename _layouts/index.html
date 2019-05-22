@@ -13,7 +13,7 @@
 				<p>{{ page.hero-p }}</p>
 				{% endif %}
 				{% if page.hero-cta %}
-				<a class="btn btn-primary btn-lg mt-1" href="/services" id="topStrategySession">{{ page.hero-cta }}</a>
+				<a class="btn btn-primary btn-lg mt-1" href="/about" id="topStrategySession">{{ page.hero-cta }}</a>
 				{% endif %}
 				{% if page.cta-eyebrow %}
 				<p class="small">{{ page.cta-eyebrow }}</p>
@@ -21,7 +21,6 @@
 			</div>
 		</div>
 	</div>
-
 
 
 
@@ -55,48 +54,43 @@
 -->
 
 
+<!--
+	<section class="section section--we-get-results">
 
+	<div class="container mt-4">
+		<h2>Some of my work</h2>
+		<div class="row">
+			<div class="col-md-10">
 
-		<!--.section-->
-		<section class="section section--we-get-results">
-			<div class="container">
-				<!--.subsection-->
-				<div class="subsection mt-5">
-					<h2 class="section-title">Client results</h2>
-					<div class="cards-faded">
-						{% for post in site.posts %}
-						<!--
-						<a href="#" data-toggle="modal" data-target="#exampleModal"> -->
-							<div class="media--preview card-faded">
-								<div class="row">
-									<div class="col-md-3">
-										<div class="embed-responsive embed-responsive-1 mb-3 mb-md-0">
-											<img class="embed-responsive-item d-xs-block d-md-none" src="{{ post.mobile-thumbnail }}" alt="" width="192" style="border: solid 1px #ddd" />
-											<img class="embed-responsive-item d-none d-md-block" src="{{ post.desktop-thumbnail }}" alt="" width="192" style="border: solid 1px #ddd" />
-										</div>
-									</div>
-									<div class="col-md-9">
-										<div class="media-body">
-											<h3 class="mb-1">{{ post.headline }}</h3>
-											<p class="mb-0">{{ post.excerpt }}</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</a>
-						{% endfor %}
-						<!--/.subsection-->
-					</div>
-		</section>
-		<!--/.section-->
+<h3>+800% insurance sales for EE</h3>
+<p>Britain’s largest mobile telco hired us to assist with the launch of a new brand and website. We identfiied and fixed usability quirks in the checkout that made them millions pounds of incremental yearly revenue.</p>
+</div>
 
+		</div>
+		<div class="row mt-5">
+			<div class="col-md-10">
 
+<h3>+800% insurance sales for EE</h3>
+<p>
+We helped Kmart explain postage and collection costs to customers. </p>
+</div>
 
+		</div>
+		<div class="row mt-5">
+			<div class="col-md-10">
 
+<h3>+25% mobile test drive requests for Nissan</h3>
+<p>
+Nissan Australia hired us to run a series of tactical A/B tests focused on optimising their mobile test drive request forms.</p>
+</div>
 
+		</div>
+</div>
+</section>
+-->
 
-		{% include book.html %}
 	</div>
+
 	<!--modals before footer-->
 	{% include footer.html %}
 	<!--/.footer-->
