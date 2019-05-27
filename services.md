@@ -6,14 +6,9 @@ hero-header: "Services"
 
 
 
-hero-subhead: "I help my clients to make their existing websites, apps and digital services more usable, more delightful and more profitable."
-hero-p: "I am typically engaged to help my clients: increase their conversion rate, tune-up their analytics, build or scale an optimisation program."
+hero-subhead: "I make existing websites, apps and digital services more usable, more delightful and more profitable."
+hero-p: "I am typically engaged to help increase conversion rates, tune-up analytics and build or scale optimisation programs."
 ---
-
-
-
-<p>
-The following is a brief overview of some of the overlapping techniques that I can use to help you get the best results out of your website, app and other digital properties:</p>
 
 <h2 class="mt-5">
 Experimentation 📈</h2>
@@ -38,7 +33,7 @@ Reduce in-bound customer support calls for a telco
 Increase home loan appointments for a bank
 </li>
 <p>
-...as well as plenty more across a diverse range of industries. 
+...as well as plenty more, across a diverse range of industries. 
 </p>
 <p>
 <a href="/services/free-consultation">Get in touch</a> for more details.
@@ -60,17 +55,16 @@ I can help with:
 </ul>
 <h2 class="mt-5">Analytics 📊 </h2>
 <p>
-As the old saying goes, "If you can’t measure it, you can’t manage it."
+"If you can’t measure it, you can’t manage it", as the old saying goes.
 </p>
 <p>
-I'll help you work out what you need to measure and how to apply the learnings from your data.
+I'll help you work out what you need to measure and how to transform data into actionable insights.
 </p>
 <p>
 By aligning business goals with a framework of measurable outcomes, I'll help you understand your on-going business performance, uncover weaknesses, threats and opportunities.
 </p>
 <p>
-I'm experienced with Google Analytics/GTM, Adobe Analytics, Segment as well as Heap, Mixpanel and Ampltiude. 
-
+I'm experienced with Google Analytics/GTM, Adobe Analytics and Segment as well as Heap, Mixpanel, Ampltiude and most of the others.
 </p>
 <h2 class="mt-5">
 Consulting & training 💼 
@@ -82,8 +76,9 @@ I do lots of different work helping clients to get the best out of their website
 Here's a selection of the things that I typically help with:
 </p>
 <ul class="list">
-<li>Vendor selection
-<li>Building & scaling optimisation programs
-<li>Measurement strategy
-<li>Team training
+<li>Vendor selection</li>
+<li><a href="/services/conversion-rate-optimisation-training">Building & scaling optimisation programs</li>
+<li>Measurement strategy</li>
+<li>Analytics for Designers</li>
+<li>Team training</li>
 </ul>
