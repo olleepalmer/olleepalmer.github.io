@@ -33,7 +33,7 @@ Reduce in-bound customer support calls for a telco
 Increase home loan appointments for a bank
 </li>
 <p>
-...as well as plenty more, across a diverse range of industries. 
+...as well as plenty more, across a diverse range of industries.
 </p>
 <p>
 <a href="/services/free-consultation">Get in touch</a> for more details.
@@ -55,7 +55,7 @@ I can help with:
 </ul>
 <h2 class="mt-5">Analytics 📊 </h2>
 <p>
-"If you can’t measure it, you can’t manage it", as the old saying goes.
+As the old saying goes, "If you can’t measure it, you can’t manage it".
 </p>
 <p>
 I'll help you work out what you need to measure and how to transform data into actionable insights.
@@ -67,7 +67,7 @@ By aligning business goals with a framework of measurable outcomes, I'll help yo
 I'm experienced with Google Analytics/GTM, Adobe Analytics and Segment as well as Heap, Mixpanel, Ampltiude and most of the others.
 </p>
 <h2 class="mt-5">
-Consulting & training 💼 
+Consulting & training 💼
 </h2>
 <p>
 I do lots of different work helping clients to get the best out of their website, their team and their tools.
