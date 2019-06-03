@@ -77,7 +77,7 @@ Here's a selection of the things that I typically help with:
 </p>
 <ul class="list">
 <li>Vendor selection</li>
-<li><a href="/services/conversion-rate-optimisation-training">Building & scaling optimisation programs</li>
+<li>Building & scaling optimisation programs</li>
 <li>Measurement strategy</li>
 <li>Analytics for Designers</li>
 <li>Team training</li>
