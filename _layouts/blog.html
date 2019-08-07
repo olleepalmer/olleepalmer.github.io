@@ -6,6 +6,9 @@
 				{% if page.hero-header %}
 				<h1>{{ page.hero-header }}</h1>
 				{% endif %}
+				<p class="text-muted">
+				{{ page.date | date: '%B %d, %Y' }}
+</p>
 				{% if page.hero-subhead %}
 				<p class="hero-text">{{ page.hero-subhead }}</p>
 				{% endif %}
@@ -23,7 +26,7 @@
 	</div>
 	<div class="container container--wider">
 							<figure>
-								<img class="img-full-width" src="img/{{ page.hero-img }}" alt="">
+								<img class="img-full-width" src="{{ page.hero-img }}" alt="">
 								<div class="row">
 									<div class="col-lg-10">
 										<figcaption>{{ page.hero-img-caption }}</figcaption>
@@ -38,9 +41,6 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-10">
-
-
-
 				{{ content }}
 			</div>
 		</div>

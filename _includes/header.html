@@ -17,8 +17,8 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="theme-color" content="#ffffff">
 	<!-- Main-->
-	<link rel="stylesheet" href="css/main.css" />
-	<link rel="stylesheet" href="css/new-css.css" />
+	<link rel="stylesheet" href="/css/main.css" />
+	<link rel="stylesheet" href="/css/new-css.css" />
 	<!-- Meta-->
 	<meta charset="utf-8">
 	<!-- Title-->
@@ -140,7 +140,7 @@ gtag('config', 'UA-117752780-1', { 'optimize_id': 'GTM-5DXWHX6'});
 		</script>
 		<header class="header js-header"">
 		<nav class=" navbar navbar-expand-md pt-4">
-			<div class="container container--md">
+			<div class="container container--xs">
 				<div class="row align-items-center align-items-md-start">
 					<div class="col-6"><a class="logo text-nowrap" href="/">Oliver Palmer</a>
 					</div>
@@ -166,7 +166,7 @@ gtag('config', 'UA-117752780-1', { 'optimize_id': 'GTM-5DXWHX6'});
 								{% assign page_is = part %}
 								{% elsif part == 'services' %}
 								{% assign page_is = part %}
-								{% elsif part == 'case-study' %}
+								{% elsif part == 'blog' %}
 								{% assign page_is = part %}
 								{% elsif part == 'about' %}
 								{% assign page_is = part %}
@@ -179,10 +179,7 @@ gtag('config', 'UA-117752780-1', { 'optimize_id': 'GTM-5DXWHX6'});
 								</li>
 								<li class="nav-item"><a class="nav-link hover-underline {% if page_is == 'services' %}active{% endif %}" href="/services">Services</a>
 								</li>
-<!--
-									<li class="nav-item"><a class="nav-link hover-underline {% if page_is == 'case-study' %}active{% endif %}" href="/case-study">Case Study</a>
-								</li>
-							-->
+
 							</ul>
 						</div>
 					</div>

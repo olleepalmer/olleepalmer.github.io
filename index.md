@@ -1,8 +1,7 @@
 ---
 layout: index
 title: "A/B testing, Conversion Rate Optimisation agency Melbourne"
-hero-header: "I help businesses grow through strategic, data-driven experimentation"
-hero-subhead: "Increase your conversion rate, delight your existing customers and reduce the cost of acquiring new ones."
-hero-p: "Clients include Kmart, Nissan and Australian Super."
-hero-cta: "Find out more"
+hero-header: "I’m a consultant working at the intersection of data, analytics, research and user experience."
+hero-subhead: "I help my clients to use data and experimentation to make better decisions."
+hero-cta: "More about me"
 ---

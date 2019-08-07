@@ -22,36 +22,20 @@
 		</div>
 	</div>
 
-
-
-<!--
 	<section class="section section--we-get-results">
 
 	<div class="container">
-		<h2>I can help you to...</h2>
-		<div class="row">
-			<div class="col-lg-6 subsection">
-				<a class="h-100" href="/services">
-					<div class="card card--hover-shadow card--service card-sm" style="background-color: #F4F4F4;">
-						<h3 class="mb-2">Increase your conversion rate</h3>
-						<p>Using research driven design and A/B testing, I'll turn more of your visitors into customers.</p>
-					</div>
-				</a>
-			</div>
-			<div class="col-lg-6 subsection">
-				<a class="h-100" href="/services/program-building">
-					<div class="card card--hover-shadow card--service card-sm" style="background-color: #F4F4F4;">
-						<h3 class="mb-2">Build (or scale) your optimisation program</h3>
-						<p>
-						Outgrown your agency but not sure how to take your testing program in-house? I can help.
-						</p>
-					</div>
-				</a>
-			</div>
-		</div>
-</div>
+		{% for post in site.categories.blog %}
+<h3>
+      <a href="{{ post.url }}">{{ post.title }}</a></h3>
+			<p class="excerpt">
+      {{ post.excerpt | strip_html | append: "..." }} <a href="{{ post.url }}">more</a>
+</p>
+  {% endfor %}
+
+
+
 </section>
--->
 
 
 <!--
