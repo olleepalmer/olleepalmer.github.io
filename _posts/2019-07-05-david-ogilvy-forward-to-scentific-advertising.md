@@ -1,6 +1,6 @@
 ---
 layout: blog
-title:  "David Ogilvy's 1964 forward to Scientific Advertising"
+title:  "David Ogilvy's forward to Scientific Advertising"
 hero-header: "David Ogilvy's 1964 forward to Scientific Advertising"
 hero-p: "I’m a nut for David Ogilvy.
 <br /><br />
@@ -11,7 +11,7 @@ hero-img: "../img/claude-hopkins-ogilvy-book.jpg"
 hero-img-caption: "Here's my copy of the book"
 categories: [blog]
 permalink: "/david-ogilvy-forward-to-scentific-advertising"
-excerpt_separator: <!--more-->
+excerpt: "The full text of David Ogilvy's 1964 forward to <em>Scentific Advertising</em> by his mentor Claude Hopkins. I bought an overpriced copy of the book so that you don't have to."
 ---
 One of Ogilvy’s great mentors was the early 20th century ad man Claude Hopkins. 
 

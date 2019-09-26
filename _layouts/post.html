@@ -1,0 +1,56 @@
+{% include header.html %}
+<div class="page-content">
+	<div class="hero">
+		<div class="container">
+			<div class="subsection">
+				{% if page.hero-header %}
+				<h1>{{ page.hero-header }}</h1>
+				{% endif %}
+				<p class="text-muted">
+				{{ page.date | date: '%B %d, %Y' }}
+</p>
+<div class="row">
+	<div class="col-lg-10">
+
+				{% if page.hero-subhead %}
+				<p class="hero-text">{{ page.hero-subhead }}</p>
+				{% endif %}
+				{% if page.hero-p %}
+				<p>{{ page.hero-p }}</p>
+				{% endif %}
+				{% if page.hero-cta %}
+				<a class="btn btn-primary btn-lg mt-1" href="/services/strategy-session" id="topStrategySession">{{ page.hero-cta }}</a>
+				{% endif %}
+				{% if page.cta-eyebrow %}
+				<p class="small">{{ page.eyebrow }}</p>
+				{% endif %}
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container container--wider">
+							<figure>
+								<img class="img-full-width" src="{{ page.hero-img }}" alt="">
+								<div class="row">
+									<div class="col-lg-10">
+										<figcaption>{{ page.hero-img-caption }}</figcaption>
+									</div>
+								</div>
+							</figure>
+						</div>
+
+
+<!--.section-->
+<section class="section pt-0">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10">
+				{{ content }}
+			</div>
+		</div>
+</section>
+<!--/.section-->
+</div>
+<!--modals before footer-->
+{% include footer.html %}
