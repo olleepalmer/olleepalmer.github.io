@@ -1,5 +1,0 @@
-<div class="comments-go-here"></div>
-<script src="https://comments.yoursite.com/embed.js"
-    data-schnack-slug="post-slug"
-    data-schnack-target=".comments-go-here">
-</script>
