@@ -1,0 +1,12 @@
+{::nomarkdown}
+
+{% capture imagePath %}{{ page.date | date: "%Y-%m-%d" }}-{{ page.permalink | slugify }}/{{ include.name }}{% endcapture %}
+{% if include.caption %}
+    <figure>
+        <img class="img-fluid" src="{{ site.url }}/img/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
+        <figcaption>{{ include.caption }}</figcaption>
+    </figure>
+{% else %}
+    <img class="img-fluid" src="{{ site.url }}/img/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
+{% endif %}
+{:/nomarkdown}

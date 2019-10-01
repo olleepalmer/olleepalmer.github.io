@@ -6,6 +6,7 @@ hero-subhead: "You could use a messy spreadsheet or buy a custom built tool, but
 excerpt: "You could use a messy spreadsheet or buy a custom built tool, but a simple kanban board in (gasp!) Jira is the most deliciously simple and effective method that I’ve found."
 categories: [blog]
 permalink: "/kanban-AB-testing-program-organisation"
+slug: "2019-09-23-kanban-AB-testing-program-organisation"
 ---
 There are a lot of moving parts in an A/B testing program. 
 
@@ -23,21 +24,17 @@ The thing is: they completely suck.
 
 With all the different data points and extended blocks of text, the whole thing gets cluttered and messy almost immediately. It doesn’t take long before you’re spending more time fiddling about with formatting than doing actual useful work.
 
-
-<img class="img-fluid" src="../img/optimizely-spreadsheet-example.png">
+{% include image.html name="optimizely-spreadsheet-example.png" caption="This is how we organised tests until, well, not that long ago" %}
 
 
 Pasting visuals into tiny cells is cumbersome and there’s no simple way to link and attach test plan and reporting documentation. It technically works but it’s really just just a pretty shitty way of doing things.
 
+
 A few years ago I saw one of the guys who runs Atlassian’s testing program present a deliciously simple alternative: a Kanban board.
 
 
-{::nomarkdown}
-</div></div></div><div class="container container--wider"><figure><img class="img-full-width" src="../img/kanban-columns.svg" alt=""><div class="row"><div class="col-lg-10"><figcaption>The magic five columns of Kanban optimisation power</figcaption></div></div></div>
-<div class="container">
-		<div class="row">
-			<div class="col-md-10">
-{:/nomarkdown}
+{% include image-large.html name="kanban-columns.svg" caption="The magical columns of Kanban power" %}
+
 
 They use five columns which show the progress of an idea from, well, an idea, to a finished test. 
 
@@ -46,7 +43,6 @@ They use five columns which show the progress of an idea from, well, an idea, to
 <li>Prioritised Backlog</li>
 <li>Working/Building</li>
 <li>Live</li>
-<li>Finished/Analysing</li>
 <li>Results</li>
 </ul>
 

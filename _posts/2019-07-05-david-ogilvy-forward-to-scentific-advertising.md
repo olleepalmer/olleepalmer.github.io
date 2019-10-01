@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title:  "David Ogilvy's forward to Scientific Advertising"
 hero-header: "David Ogilvy's 1964 forward to Scientific Advertising"
 hero-p: "I’m a nut for David Ogilvy.
