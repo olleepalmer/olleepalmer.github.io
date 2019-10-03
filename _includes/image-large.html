@@ -1,5 +1,5 @@
 {::nomarkdown}
-{% capture imagePath %}{{ page.date | date: "%Y-%m-%d" }}-{{ page.permalink | slugify }}/{{ include.name }}{% endcapture %}
+{% capture imagePath %}{{ include.name }}{% endcapture %}
 {% if include.caption %}
 </div></div></div><div class="container container--wider"><figure><img class="img-full-width" src="{{ site.url }}/img/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %}><div class="row"><div class="col-lg-10"><figcaption>{{ include.caption }}</figcaption></div></div></div>
 <div class="container">
