@@ -13,7 +13,6 @@ There are a lot of moving parts in an A/B testing program.
 You need to manage idea submissions, prioritise a backlog, manage design and development. Not to mention, keep all your stakeholders informed along the way.
 
 
-
 ## The problem with spreadsheets 
 
 Not long ago the defacto standard was to use a spreadsheet as an organisational tracker, Optimizely still host a template on their site that you can download.
@@ -26,15 +25,11 @@ With all the different data points and extended blocks of text, the whole thing 
 
 {% include image.html name="optimizely-spreadsheet-example.png" caption="This is how we organised tests until, well, not that long ago" %}
 
-
 Pasting visuals into tiny cells is cumbersome and there’s no simple way to link and attach test plan and reporting documentation. It technically works but it’s really just just a pretty shitty way of doing things.
 
-
-A few years ago I saw one of the guys who runs Atlassian’s testing program present a deliciously simple alternative: a Kanban board.
-
+A few years ago I saw one of the guys who runs [Atlassian’s testing program present a deliciously simple alternative](https://www.atlassian.com/company/events/summit-us/watch-sessions/2014/archives/collaboration-teams/ab-testing-how-to-break-things-and-fail-fast-without-breaking-things): a Kanban board.
 
 {% include image-large.html name="kanban-columns.svg" caption="The magical columns of Kanban power" %}
-
 
 They use five columns which show the progress of an idea from, well, an idea, to a finished test. 
 
@@ -84,9 +79,7 @@ But it’s getting better.
 
 Depending on your business, getting a Jira board set-up can take you anywhere from between a couple of hours and a couple of weeks.
 
-You’ll need to track down the resident admin and convince them to set things up for you. In my experience, they’re often a BA or a dev or a sysadmin who you’ve never met who probably doesn’t much want to help.
-
-They’ll ask you to write a maddening flow document (give me a shout if you need help with this and I can send you the one that I normally use).
+You’ll need to track down the resident admin and convince them to set things up for you. In my experience, they’re often a BA or a dev or a sysadmin who you’ve never met who probably doesn’t much want to help and you'll need to supply with them with an annoying specific flow document (to determine that any card can be moved to any column, basically, just like Trello).
 
 You can set up a board like this in about 3 minutes on Trello and it does almost the EXACT same thing.
 
@@ -104,7 +97,6 @@ Everyone already has a Jira account. That makes logging a test idea as simple an
 
 Trello is vastly more intuitive and easier to set-up. Some businesses are run entirely on Trello (mine is). In that case, please use Trello.
 
-
 But I’d be wary of introducing a Trello board to a business that uses Jira or something else
 
 ## What about custom built tools?
@@ -112,5 +104,3 @@ But I’d be wary of introducing a Trello board to a business that uses Jira or 
 After ignoring it for years, I’ve recently started using Optimizely’s Program Management too with one client. 
 
 We’ve only been up and running for a few weeks, but I’ll post some thoughts about that once I’ve got a clearer idea on its strengths and weaknesses.
-
-How do you organise your testing program?
