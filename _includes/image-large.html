@@ -1,12 +1,12 @@
 {::nomarkdown}
 {% capture imagePath %}{{ include.name }}{% endcapture %}
 {% if include.caption %}
-</div></div></div><div class="container container--wider"><figure><img class="img-full-width" src="{{ site.url }}/img/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %}><div class="row"><div class="col-lg-10"><figcaption>{{ include.caption }}</figcaption></div></div></div>
+</div></div></div><div class="container container--wider"><figure><img class="img-full-width" src="/img/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %}><div class="row"><div class="col-lg-10"><figcaption>{{ include.caption }}</figcaption></div></div></div>
 <div class="container">
 		<div class="row">
 			<div class="col-md-10">
         {% else %}
-      </div></div></div><div class="container container--wider"><figure><img class="img-full-width" src="{{ site.url }}/img/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %}><div class="row"></div></div>
+      </div></div></div><div class="container container--wider"><figure><img class="img-full-width" src="/img/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %}><div class="row"></div></div>
       <div class="container">
           <div class="row">
             <div class="col-md-10">
