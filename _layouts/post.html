@@ -3,8 +3,8 @@
 	<div class="hero">
 		<div class="container">
 			<div class="subsection">
-				{% if page.hero-header %}
-				<h1>{{ page.hero-header }}</h1>
+				{% if page.title %}
+				<h1>{{ page.title }}</h1>
 				{% endif %}
 				<p class="text-muted">
 				{{ page.date | date: '%B %d, %Y' }}
@@ -12,8 +12,8 @@
 <div class="row">
 	<div class="col-lg-10">
 
-				{% if page.hero-subhead %}
-				<p class="hero-text">{{ page.hero-subhead }}</p>
+				{% if page.subhead %}
+				<p class="hero-text">{{ page.subhead }}</p>
 				{% endif %}
 				{% if page.hero-p %}
 				<p>{{ page.hero-p }}</p>

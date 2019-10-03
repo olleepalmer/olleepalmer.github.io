@@ -5,7 +5,6 @@ hero-header: "Installing a Nest thermostat"
 date: 2019-08-20 19:16:49 +0100
 categories: [blog]
 permalink: "/nest-thermostat-in-australia"
-excerpt_separator: <!--more-->
 ---
 ![](/img/nest-internal.jpg){: .img-fluid}
 
