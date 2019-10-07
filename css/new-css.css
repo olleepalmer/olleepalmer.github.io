@@ -11,3 +11,28 @@ font-family: "courier";
 .excerpt p:last-child::after {
     content: '..';
 }
+.lead-small
+{
+  font-size: 18px; !important
+  line-height: 32px; !important
+  color: red;
+}
+
+
+
+@media (min-width: 768px) {
+
+h2
+{
+  font-size: 28px;
+
+}
+
+.lead-small
+{
+  font-size: 26px; !important
+  line-height: 40px; !important
+  color: red;
+}
+
+ }

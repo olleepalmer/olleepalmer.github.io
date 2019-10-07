@@ -2,17 +2,21 @@
 layout: post
 title:  "David Ogilvy's forward to Scientific Advertising"
 hero-header: "David Ogilvy's 1964 forward to Scientific Advertising"
-hero-p: "I’m a nut for David Ogilvy.
-<br /><br />
-I will happily read anything that he ever wrote.
-<br /><br />
-Whether it’s an agency wide memo from 1963 or a long copy ad for Rolls Royce, every time I read and re-read his work I learn something new."
-hero-img: "../img/claude-hopkins-ogilvy-book.jpg"
-hero-img-caption: "Here's my copy of the book"
-categories: [blog]
-permalink: "/david-ogilvy-forward-to-scentific-advertising"
+subhead: "The full text of David Ogilvy's 1964 forward to Scentific Advertising by his mentor Claude Hopkins. I bought an overpriced copy of the book so that you don't have to."
 excerpt: "The full text of David Ogilvy's 1964 forward to <em>Scentific Advertising</em> by his mentor Claude Hopkins. I bought an overpriced copy of the book so that you don't have to."
+permalink: "david-ogilvy-forward-to-scentific-advertising"
+category: blog
 ---
+
+{% include image-large.html name="claude-hopkins-ogilvy-book.jpg" caption="Here's my copy of the book" %}
+
+
+I’m a nut for David Ogilvy.
+
+I will happily read anything that he ever wrote.
+
+Whether it’s an agency wide memo from 1963 or a long copy ad for Rolls Royce, every time I read and re-read his work I learn something new.
+
 One of Ogilvy’s great mentors was the early 20th century ad man Claude Hopkins. 
 
 Hopkins wrote the 1923 book <em>Scientific Advertising</em> which introduced the pubescent ad world to the benefits of informing advertising through testing and research rather than by opinion and instinct<!--more-->. 
