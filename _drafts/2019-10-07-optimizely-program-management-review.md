@@ -12,16 +12,20 @@ permalink: "optimizely-program-management-review"
 
 Let’s get this out of the way: I love Optimizely. I’ve been using it daily since 2013 and it’s hands down the best experimentation platform out there. 
 
-A couple of years ago, they bought a company called Experiment Engine and rebranded it as Program Management. It’s a product thats designed to help businesses organise and scale up their experimentation programs.
+A couple of years ago, they bought a company called Experiment Engine. Experiment Engine purported to deal with the problem that a lot of businessses face: how do you organise your testing program in such a way that allows you to scale up, run more tests, get lots of people involved and maintain your sanity,
 
-Without having laid hands on it, I was always a bit skeptic about Program Management, though. I’ve been using a simple Jira Kanban board for years and it works really, really well. 
+Optimizely rebranded this product as Program Management and bolted it on as an extra feature for certain tiers of users. 
 
-The major reservations I had were:
+Without having laid hands on it, I was always a bit skeptic about Program Management. I’ve been using a simple Jira Kanban board for years and it works really, really well. 
+
+My key reservations were:
 
 1. What could Program Management do better than my Jira board?
 2. Is vendor lock-in a great idea? What if we stopped using Opfimizely? We’d have to migrate everything out of there into a third party, independent tool. That would be a major pain. 
 
-A few months ago, one my clients switched to a new type of Optimizely plan and got Program Management thrown in as an added bonus.
+A few months ago, one my clients switched to a new plan tier which allowed Program Management for no additional cost.
+
+We were excited to try it out.
 
 Now, I know, if it ain’t broke, etc. but the tool has the explicit remit of helping people to speed up their experimentation programs. That’s exactly what I like doing, so I figured that if we weren’t actually paying for it, it’d be worth seeing how it compares.
 
@@ -55,7 +59,6 @@ Rather than just an empty block of text as in Jira, each idea submission has a r
 
 This is useful to help stakeholders define their ideas before submitting a test concept. If there’s a field called Hypothesis and Goal, then that encourages them to think about these elements of the test when submitting a concept.
 
-
 ## What I don’t like
 
 ### The inflexible scoring method
@@ -66,16 +69,11 @@ Program Management has built-in PIE scoring, which is great. They also let you c
 
 Instead of using a 1-10 score (like pretty much everyone out there, ever), PM uses 1-5 which gives you a lot less nuance.
 
-Most of my clients only run a handful of tests a month. A PIE score 9.1 means that something will be worked on almost immediately, where an 7.2 will probably languish in the queue. Maybe forever.
-
-Using PM’s 1-5 system felt a lot less nuanced. Everything seemed to be a 3.8 or a 4.3 and there didn’t seem be much difference between them.
-
 ### ‘Love scores’ are infuriating.
 
 In addition to the standard PIE scores, PM has a mandatory ‘Love’ field that cannot be disabled.
 
 This seems to be designed to allow pushy senior stakeholders to crank up their pet test concept. You may put up with this kind of carry-on in your testing program, but I keep mine in check.
-
 
 ### Adding users is slow and buggy
 
@@ -97,29 +95,42 @@ One of benefits of using Jira is that most businesses already use Jira, and most
 
 ### You can’t @ mention people
 
+Being able to tag users into a ticket is really useful. "hey @whoever, here's the test plan for your approval."
+
 Not being able to tag someone in a ticket and create an email notification means that it’s hard to let people know what’s happening.
 
-Even when users ‘watch’ a test, they don’t get notifications when changes are made.
+Curiously, Program Management does allow users to 'watch’ a test, but they don’t get notifications when changes are made. I'm really not sure what 'watching' does then.
 
-Rather than a vibrant collaborative workspace, Program Management is a lonely island.
+There is a section for dialogue and comments but when no one is notified when a new comment is added, it gets stale pretty quickly.
+
+Rather than a vibrant collaborative workspace, Program Management quickly becomes a lonely island.
 
 ### It’s hard to see what’s happening at a glance
 
 This is the big one.
 
-Using a Kanban board, it is always clear to me where I needed to focus my efforts. I could see: here are the new tests that need to be prioritised, here’s what’s running currently, here’s what needs analysis.
+Using a Kanban board, it is always clear to me where I need to focus my efforts. I can see: here are the new tests that need to be prioritised, here’s what’s running currently, here’s what needs analysis.
 
-In the Program Management interface, it’s just a sea of green circles.
+In the Program Management interface, it’s just a sea of coloured circles.
 
-Tests are either ‘Active’ or ‘Archived’.
+## Test status
+
+Within each test, you have the option of marking by stage, e.g. ‘Requirements’, Development’, ‘Design’, etc. which is really useful. 
+
+
+
+
+Tests are either ‘Active’ or ‘Archived’. 
 
 But we don’t really think in that way; those ‘Archived’ tests contain years of results! And they should be easy to see and to access.
 
-Within each test, you have the option of marking by stage, e.g. ‘Requirements’, Development’, ‘Design’, etc. but you cannot view tests by stage in aggregate.
+
+
+
 
 ### No serial number for tests
 
-Jira creates a number for each ticket. 
+One of the things I've come to love about Jira is that it creates a number for each ticket. 
 
 My first test might be called ABT-1 and my one hundredth test ABT-100. Having a sequential number automatically assigned to each test makes it easy to search and find what you’re looking for. 
 
@@ -127,7 +138,7 @@ Searching for ‘Purple Homepage Widget’ becomes cumbersome and ineffective su
 
 If Program Management assigned a short, sequential number to each ‘Idea’ that would be very useful.
 
-It’s not a great place for results
+### It’s not a great place for results
 
 One of the main things I want from a tool such as this is a place where test results can live and be easily referred back to.
 
