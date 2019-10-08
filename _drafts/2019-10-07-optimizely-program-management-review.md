@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "My two month experiment with Optimizely Program Management"
-hero-header: "The best way I’ve found to manage A/B testing programs"
 subhead: "After ignoring it for years, I recently spent two months using Optimizely’s experimentation program organisational tool. Instead of helping, it actually made things more difficult."
 excerpt: "After ignoring it for years, I recently spent two months using Program Management, Optimizely’s experimentation program organisational tool. Instead of helping, it actually made things more difficult."
 categories: [blog]
