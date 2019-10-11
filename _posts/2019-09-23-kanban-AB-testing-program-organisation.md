@@ -8,6 +8,9 @@ categories: [blog]
 permalink: "/kanban-AB-testing-program-organisation"
 slug: "2019-09-23-kanban-AB-testing-program-organisation"
 ---
+{% include image-large.html name="kanban-columns.svg" caption="The five magical columns of Kanban power" %}
+
+
 There are a lot of moving parts in an A/B testing program.
 
 You need to manage idea submissions, prioritise a backlog, manage design and development. Not to mention, keep all your stakeholders informed along the way.
@@ -30,10 +33,6 @@ Pasting visuals into tiny cells is cumbersome and there’s no simple way to lin
 
 
 A few years ago I saw one of the guys who runs Atlassian’s testing program present a deliciously simple alternative: a Kanban board.
-
-
-{% include image-large.html name="kanban-columns.svg" caption="The magical columns of Kanban power" %}
-
 
 They use five columns which show the progress of an idea from, well, an idea, to a finished test.
 
