@@ -41,6 +41,8 @@ The downside is that you have to manually code each test to enable this reportin
 
 The reports also propose to be able to tell you your win rate and help to generate a figure which tells you the ROI of your testing program. While this does have a bit of nuance (you can set a positive result for a negative score, for instance), I can see this working in simplistic cases.
 
+To be fair, we didn't last long enough to get any real benefit from reporting.
+
 ### Built in scoring 
 
 Program Management has a built in scoring tool which uses the PIE methodology.
@@ -89,9 +91,16 @@ The interface assumes that anyone you’re adding already has an Optimizely Acco
 
 Program Management is inexorably linked to Optimizely, so there’s no way around it.
 
-I need to create logins for users and then I have to explain to them how to get to Program Management  from Optimizely (‘click on the absolutely tiny little triangle in the left corner’). There’s no way for them to go straight to Program Management.
-
 One of benefits of using Jira is that most businesses already use Jira, and most stakeholders already have a Jira login. It’s not something new or foreign or additional, it’s one of the fundamental business tools.
+
+### Onboarding new users sucks
+
+Getting all the client side stakeholders on board was fiddly and annoyong.
+
+I had to create Optimizely logins for users and then I have to explain to them how to get to Program Management from Optimizely (‘click on the absolutely tiny little triangle in the left corner’). There’s no way for them to go straight to Program Management.
+
+IMAGE -- CLICK ON THIS ATULID LITTLE TEIANHE
+
 
 ### You can’t @ mention people
 
@@ -99,7 +108,7 @@ Being able to tag users into a ticket is really useful. "hey @whoever, here's th
 
 Not being able to tag someone in a ticket and create an email notification means that it’s hard to let people know what’s happening.
 
-Curiously, Program Management does allow users to 'watch’ a test, but they don’t get notifications when changes are made. I'm really not sure what 'watching' does then.
+Curiously, Program Management does allow users to 'watch’ a test, but they don’t get notifications when changes are made. I'm really not sure what 'watching' does at all.
 
 There is a section for dialogue and comments but when no one is notified when a new comment is added, it gets stale pretty quickly.
 
@@ -112,21 +121,6 @@ This is the big one.
 Using a Kanban board, it is always clear to me where I need to focus my efforts. I can see: here are the new tests that need to be prioritised, here’s what’s running currently, here’s what needs analysis.
 
 In the Program Management interface, it’s just a sea of coloured circles.
-
-## Test status
-
-Within each test, you have the option of marking by stage, e.g. ‘Requirements’, Development’, ‘Design’, etc. which is really useful. 
-
-
-
-
-Tests are either ‘Active’ or ‘Archived’. 
-
-But we don’t really think in that way; those ‘Archived’ tests contain years of results! And they should be easy to see and to access.
-
-
-
-
 
 ### No serial number for tests
 
@@ -147,14 +141,6 @@ Program Management has two states:
 ‘Live’ and ‘Archived’
 
 If a test has been archived, it literally disappears from view. Past test needs to be present, visible and easily found.
-
-### No ability to filter by stage
-
-Program Management has a great timeline in each ticket where you can mark the stage it’s at, e.g. Idea, Requirements, Development, etc.
-
-The problem is, there’s no way to filter your master list by stage. This meant that I became dreadfully lost. 
-
-Where my Kanban board gives me an at a glance view of what I need to be working on at any minute, Program Management gave me a homogenous list of every test at every stage. 
 
 
 
