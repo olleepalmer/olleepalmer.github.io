@@ -17,8 +17,19 @@ font-family: "courier";
   line-height: 32px; !important
   color: red;
 }
+.zoom:hover{
+	cursor: zoom-in;
+}
+figure a  {
+   text-decoration: none !important;
+   border-bottom:0px !important;
 
+}
 
+.featherlight-content img:hover
+{
+	cursor: zoom-out;
+}
 
 @media (min-width: 768px) {
 

@@ -1,4 +1,5 @@
 {::nomarkdown}
+
 {% capture imagePath %}{{ include.name }}{% endcapture %}
 {% if include.caption %}
 </div></div></div>
@@ -6,7 +7,9 @@
   <div class="row">
     <div class="col-md-6">
       <div class="container--mobile-full-width">
-        <img class="img-full-width" src="/img/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %}>
+        <a href="/img/{{ imagePath }}" data-featherlight="image">
+        <img class="img-full-width zoom" src="/img/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %}>
+        </a>
       </div>
     </div>
     <div class="col-md-6">
@@ -27,7 +30,9 @@
         <div class="row">
           <div class="col-md-6">
             <div class="container--mobile-full-width">
-              <img class="img-full-width" src="/img/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %}>
+              <a href="/img/{{ imagePath }}" data-featherlight="image">
+              <img class="img-full-width zoom" src="/img/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %}>
+              </a>
             </div>
           </div>
       </div>
