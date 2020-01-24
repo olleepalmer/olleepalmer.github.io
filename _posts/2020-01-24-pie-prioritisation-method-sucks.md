@@ -9,7 +9,7 @@ permalink: "/pie-prioritisation-method-sucks"
 slug: "2020-01-24-pie-prioritisation-method-sucks"
 ---
 
-{% include image-large.html name="pie-score.svg" caption="PIE is the average of three guesstimates" %}
+{% include image-large.html name="pie-score.svg" caption="PIE: Ostensibly the average of three guesstimates" %}
 
 If you’re running more than one or two A/B tests a month, you need a prioritisation method. If you’re working with a team that’s bigger than just you, you need a prioritisation method.
 
