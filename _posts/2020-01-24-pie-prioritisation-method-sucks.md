@@ -168,3 +168,14 @@ So yeah, if you’re looking for a magic number-crunching test prioritisation ma
 For the rest of us, however, it’s an invaluable tool.
 
 Thanks for sharing it, Chris and sorry for trolling you 😉 
+<br /><br />
+<div data-aos="fade-right">
+<div class="alert alert-warning" role="alert">
+<h4>Keine kommentare!</h4>
+Agree? Think I'm a clueless moron? Something else?
+<br /><br />
+I'd love to hear your thoughts.
+<br /><br />
+My website doesn't have comment functionality, but if you have any thoughts, send them to me via <a href="mailto:op@publicbasic.com">email</a> or <a href="https://www.twitter.com/ollee">Twitter</a> and I'll respond and include here with your permission.
+  </div>
+  </div>
