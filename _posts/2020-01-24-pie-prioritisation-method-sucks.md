@@ -3,7 +3,7 @@ layout: post
 title:  "The PIE prioritisation method sucks (but it’s the best we have)"
 hero-header: "The best way I’ve found to manage A/B testing programs"
 subhead: "Behind its flimsy facade, this three-letter approach to prioritising a backlog of A/B tests hides an elegant and effective framework for communication, collaboration and consensus-building."
-excerpt: "Take a handful of guesstimates and them get the average. Surely there's a better way to prioritise your A/B testing program? I used to think that there was too."
+excerpt: "Take a handful of guesstimates and then get the average. Surely there's a better way to prioritise your A/B testing program? I used to think that there was too."
 categories: [blog]
 permalink: "/pie-prioritisation-method-sucks"
 slug: "2020-01-24-pie-prioritisation-method-sucks"
