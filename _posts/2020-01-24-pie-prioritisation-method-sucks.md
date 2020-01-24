@@ -3,13 +3,13 @@ layout: post
 title:  "The PIE method sucks (but it’s the best we've got)"
 hero-header: "The best way I’ve found to manage A/B testing programs"
 subhead: "Behind its flimsy facade, this three-letter approach to prioritising a backlog of A/B tests hides an elegant and effective framework for communication, collaboration and consensus-building."
-excerpt: "Take a handful of guesstimates and then get the average. Surely there's a better way to prioritise your A/B testing program? I used to think that there was too."
+excerpt: "Take a handful of guesstimates and then get the average. Surely there's a better way to prioritise your A/B testing program? I used to think so too."
 categories: [blog]
 permalink: "/pie-prioritisation-method-sucks"
 slug: "2020-01-24-pie-prioritisation-method-sucks"
 ---
 
-{% include image-large.html name="pie-score.svg" caption="PIE: Ostensibly the average of three guesstimates" %}
+{% include image-large.html name="pie-score.svg" caption="PIE score: Ostensibly the average of three guesstimates" %}
 
 If you’re running more than one or two A/B tests a month, you need a prioritisation method. If you’re working with a team that’s bigger than just you, you need a prioritisation method.
 
