@@ -147,9 +147,9 @@ For example, some of the inputs required to score each test are:
 <li>Noticeable within five seconds?</li>
 </ul>
 
-There&#39;s am embedded value judgement in each of these which I think needs to be unravelled in each case.
+There&#39;s a contextual value judgement in each of these which I think needs to be unravelled in each case. 
 
-Are we still talking about the fold in 2020?
+Also: are we still talking about the fold?
 
 ### It's fast
 
