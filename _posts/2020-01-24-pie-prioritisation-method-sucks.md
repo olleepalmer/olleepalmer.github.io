@@ -56,7 +56,7 @@ If you scroll down to the comments section at the bottom of [the blog post which
 > _Isn’t the PIE score just an aggregation of a few guesstimates turned into a number out of ten?_
 
 
-{% include image-large.html name="ocp-pie-troll.jpg" caption="Me anonymously trolling on the original PIE score blog post. As it turns out, I think I was both right and wrong." %}
+{% include image-large.html name="ocp-pie-troll.jpg" caption="Me anonymously trolling on the original PIE score blog post" %}
 
 To which Chris thoughtfully responds:
 
