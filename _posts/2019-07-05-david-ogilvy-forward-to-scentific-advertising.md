@@ -4,7 +4,7 @@ title:  "David Ogilvy's forward to Scientific Advertising"
 hero-header: "David Ogilvy's 1964 forward to Scientific Advertising"
 subhead: "The full text of David Ogilvy's 1964 forward to Scentific Advertising by his mentor Claude Hopkins. I bought an overpriced copy of the book so that you don't have to."
 excerpt: "The full text of David Ogilvy's 1964 forward to <em>Scentific Advertising</em> by his mentor Claude Hopkins. I bought an overpriced copy of the book so that you don't have to."
-permalink: "david-ogilvy-forward-to-scentific-advertising"
+permalink: "/blog/david-ogilvy-forward-to-scentific-advertising"
 category: blog
 ---
 
@@ -17,9 +17,9 @@ I will happily read anything that he ever wrote.
 
 Whether it’s an agency wide memo from 1963 or a long copy ad for Rolls Royce, every time I read and re-read his work I learn something new.
 
-One of Ogilvy’s great mentors was the early 20th century ad man Claude Hopkins. 
+One of Ogilvy’s great mentors was the early 20th century ad man Claude Hopkins.
 
-Hopkins wrote the 1923 book <em>Scientific Advertising</em> which introduced the pubescent ad world to the benefits of informing advertising through testing and research rather than by opinion and instinct<!--more-->. 
+Hopkins wrote the 1923 book <em>Scientific Advertising</em> which introduced the pubescent ad world to the benefits of informing advertising through testing and research rather than by opinion and instinct<!--more-->.
 
 I’m not sure these teachings have been widely adopted even almost a century later. But they had a great influence on Ogilvy and he spread the gospel widely.
 
@@ -31,7 +31,7 @@ As a would-be Ogilvy completist, one of his works had always eluded me: the forw
 
 <em>Confessions of An Advertising Man</em> had been a surprise bestseller just a few years before and Ogilvy was at the height of his fame. His photo and blurb entirely dominate the back cover.
 
-Even on AbeBooks and equivalent, copies are quite hard to find cost more than one should reasonably spend for the benefit of a few hundred words. 
+Even on AbeBooks and equivalent, copies are quite hard to find cost more than one should reasonably spend for the benefit of a few hundred words.
 
 After thinking about it for a year or so, I recently ordered a copy from a rare bookseller in Aurora, Illinois (somewhere I have never been but which in my imagination looks a lot like a John Hughes film). I hope to save you from doing the same by posting Ogilvy’s foreword here.
 
@@ -54,7 +54,7 @@ Don't be put off by Hopkins' staccato, graceless style. When he was a boy he had
 Don't be put off by his misuse of the word scientific. As Alfred Politz has pointed out, Hopkins "does not indicate the boundaries between direct findings from experimentation and conclusions arrived at by general observation and reasoning."
 </p>
 <p>
-A few of his conclusions have been disproved by later research. For example, Dr. Gallup and Dr. Starch would not agree with 
+A few of his conclusions have been disproved by later research. For example, Dr. Gallup and Dr. Starch would not agree with
 Hopkins when he writes: "In every ad consider only new customers. People using your product are not going to read your  ads."
 </p>
 <p>
@@ -67,7 +67,7 @@ Hopkins believed that nobody with a college education could write copy for the m
 He thought that illustrations were a waste of space. Perhaps they were less important fifty years ago, when magazines and newspapers were thinner, and competition for the reader's attention less severe.
 </p>
 <p>
-But forty-two years after Hopkins wrote this book, almost everybody would agree with the following conclusions: 
+But forty-two years after Hopkins wrote this book, almost everybody would agree with the following conclusions:
 </p>
 <p>
 <em>
@@ -131,7 +131,7 @@ Actual figures are not generally discounted. Specific facts, When stated, have t
 Claude Hopkins was born in 1866 and died in 1932. At seventeen he was a lay preacher, and his ambition was to become a clergyman. But he rebelled against his family's fundamentalist brand of religion, and got a job as a bookkeeper at $4-50 a week.
 </p>
 <p>
-Not long afterwards he joined the Bissell Carpet Sweeper Company, and invented selling strategies which gave Bissell a virtual monopoly. Then to Swift as Advertising Manager. Then to Dr.  Shoop's patent medicine company in Racine, where he persuaded his agency to let him write all the copy—not only his own account, but on several of the agency's other accounts as well, including Montgomery Ward and Schlitz Beer. 
+Not long afterwards he joined the Bissell Carpet Sweeper Company, and invented selling strategies which gave Bissell a virtual monopoly. Then to Swift as Advertising Manager. Then to Dr.  Shoop's patent medicine company in Racine, where he persuaded his agency to let him write all the copy—not only his own account, but on several of the agency's other accounts as well, including Montgomery Ward and Schlitz Beer.
 </p>
 <p>
 In 1908, when Hopkins was forty-one, he was hired by Albert Lasker to write copy for Lord & Thomas. Lasker paid him $185,000 a year—equivalent to $639,000 in today's money (N.B About $5m in 2019 money - OP). Hopkins earned every penny of it. He seldom stopped work before midnight, and was prodigiously fertile. From his typewriter came campaigns which made a long list of products famous and profitable. They include Pepsodent and Palmolive.

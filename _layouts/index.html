@@ -39,6 +39,9 @@
 <a href="{{ post.url }}">
 		<div class="card card--hover-shadow card--service">
 			<h3 class="mb-2">{{ post.title }}</h3>
+			<p class="small text-muted">
+				{{ post.date | date: '%B %Y' }}
+		</p>
 
 			<p class="excerpt">
 				{{ post.excerpt }}
