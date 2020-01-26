@@ -7,6 +7,7 @@ excerpt: "Take a handful of guesstimates and then get the average. Surely there'
 categories: [blog]
 permalink: "/pie-prioritisation-method-sucks"
 slug: "2020-01-24-pie-prioritisation-method-sucks"
+description:
 ---
 
 {% include image-large.html name="pie-score.svg" caption="PIE score: Ostensibly the average of three guesstimates" %}
@@ -25,7 +26,7 @@ The process of prioritisation with a group has the added benefit of building buy
 
 ## How PIE  works
 
-First [proposed by Chris Goward at Wider Funnel back in 2011](https://www.widerfunnel.com/how-to-prioritize-conversion-rate-optimization-tests-using-pie/), PIE has since become the defacto standard for A/B test prioritisation. 
+First [proposed by Chris Goward at Wider Funnel back in 2011](https://www.widerfunnel.com/how-to-prioritize-conversion-rate-optimization-tests-using-pie/), PIE has since become the defacto standard for A/B test prioritisation.
 
 Optimizely&#39;s Program Management tool uses it natively as too, I understand, does VWO&#39;s equivalent.
 
@@ -41,7 +42,7 @@ You assign each test candidate a score out of ten according to the following cri
 
 After you’ve scored, you then take the average of the 3.
 
-The number that’s left over? 
+The number that’s left over?
 
 That’s your PIE score.
 
@@ -66,7 +67,7 @@ He is right.
 
 Anonymous troll me is also right, incidentally, but more on that in an a moment.
 
-## Surely something better exists by now?
+## Surely there's something better?
 
 Now and then, new prioritisation methods crop up.
 
@@ -84,9 +85,9 @@ Developed by the team at Growth Hackers, [ICE](https://blog.growthhackers.com/th
 </li>
 </ul>
 
-To my mind, ICE is a slightly improved take on PIE. 
+To my mind, ICE is a slightly improved take on PIE.
 
-I've singled out PIE in this post because it is the method that I use (and the first that I came across, for that matter). 
+I've singled out PIE in this post because it is the method that I use (and the first that I came across, for that matter).
 
 That being said, everything here could equally be applied to ICE or probably any other future 3-letter permutations and variations (including my own take on PIE, below).
 
@@ -103,7 +104,7 @@ In my own work, I actually use a slightly modified version of PIE.
 
 I wasn't aware of ICE when I made these tweaks, but it has the similarity of replacing 'Importance' with 'Impact'.
 
-I began using this version of PIE with my clients because I found myself regularly struggling to explain the difference between &#39;Potential&#39; and &#39;Importance&#39;. 
+I began using this version of PIE with my clients because I found myself regularly struggling to explain the difference between &#39;Potential&#39; and &#39;Importance&#39;.
 
 Without thinking about it too much, this version emerged.
 
@@ -147,13 +148,13 @@ For example, some of the inputs required to score each test are:
 <li>Noticeable within five seconds?</li>
 </ul>
 
-There&#39;s a contextual value judgement in each of these which I think needs to be unravelled in each case. 
+There&#39;s a contextual value judgement in each of these which I think needs to be unravelled in each case.
 
 Also: are we still talking about the fold?
 
 ### It's fast
 
-Because you're inputting just three inputs, prioritisation with PIE doesn't have to be a long and complicated process. 
+Because you're inputting just three inputs, prioritisation with PIE doesn't have to be a long and complicated process.
 
 If you ever finish PXLing your backlog, give me a shout and we'll compare notes.
 
@@ -163,11 +164,11 @@ As Chris indicates in his comment all those years ago, he was aware that creatin
 
 Instead, PIE gives you a way to focus your intellect and reasoning and facilitate and guide discussion with your stakeholders sensibly and productively.
 
-So yeah, if you’re looking for a magic number-crunching test prioritisation machine, PIE sucks. 
+So yeah, if you’re looking for a magic number-crunching test prioritisation machine, PIE sucks.
 
 For the rest of us, however, it’s an invaluable tool.
 
-Thanks for sharing it, Chris and sorry for trolling you 😉 
+Thanks for sharing it, Chris and sorry for trolling you 😉
 <br /><br />
 <div data-aos="fade-right">
 <div class="alert alert-warning" role="alert">
