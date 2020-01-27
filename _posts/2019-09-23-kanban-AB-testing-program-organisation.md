@@ -5,7 +5,7 @@ hero-header: "The best way I’ve found to manage A/B testing programs"
 subhead: "You could use a messy spreadsheet or buy a custom built tool, but a simple kanban board in (gasp!) Jira is the most deliciously simple and effective method that I’ve found."
 excerpt: "You could use a messy spreadsheet or buy a custom built tool, but a simple kanban board in (gasp!) Jira is the most deliciously simple and effective method that I’ve found."
 categories: [blog]
-permalink: "/kanban-AB-testing-program-organisation"
+permalink: "/blog/kanban-AB-testing-program-organisation"
 slug: "2019-09-23-kanban-AB-testing-program-organisation"
 ---
 {% include image-large.html name="kanban-columns.svg" caption="The five magical columns of Kanban power" %}
