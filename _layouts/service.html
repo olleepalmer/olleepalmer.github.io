@@ -1,67 +1,137 @@
 {% include header.html %}
-
-	<div class="page-content">
-		<div class="hero hero--case">
-			<div class="container">
-				<div class="subsection">
-					<h1>{{ page.title }}</h1>
-					<div class="row">
-						<div class="col-lg-10">
-							<p>{{ page.excerpt }}</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+<div class="page-content">
+	<div class="hero">
 		<div class="container">
+			<div class="subsection">
+				{% if page.title %}
+				<h1>{{ page.title }}</h1>
+				{% endif %}
+				{% if page.hero-subhead %}
+			<p class="hero-text">{{ page.hero-subhead }}</p>
+				{% endif %}
 
+				{% if page.subhead %}
+				<p class="lead-small">{{ page.subhead }}</p>
+				{% endif %}
 
-			      <a href="{{ post.url }}">
-			        <h2 class="post-title">{{ post.title }}</h2>
-			      </a>
-			</div>
-
-			<div class="container">
-
-			<div class="row">
-				<div class="col-lg-10">
-					{{ page.content }}
-				</div>
+				{% if page.hero-cta %}
+				<a class="btn btn-primary btn-lg mt-1" href="/services/strategy-session" id="topStrategySession">{{ page.hero-cta }}</a>
+				{% endif %}
+				{% if page.cta-eyebrow %}
+				<p class="small">{{ page.eyebrow }}</p>
+				{% endif %}
+				<table class="specs text-sm mt-4">
+								<tbody>
+									<tr>
+										<td>
+											<div class="specs__label">Typical duration</div>
+										</td>
+										<td>
+											<p>7–14 days</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="specs__label">Typical cost</div>
+										</td>
+										<td>
+											<p>$9,000</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="specs__label">Works well with</div>
+										</td>
+										<td>
+											<p><a href="/services">Qualitative review </a>
+												<br><a href="/services">Analytics tune-up</a>
+											</p>
+										</td>
+									</tr>
+								</tbody>
+							</table>
 			</div>
 		</div>
-		<!--.section-->
-		<section class="section section--additional">
-			<div class="container">
-				<!--.subsection-->
-				<div class="subsection">
-					<h2 class="section-title">Other services</h2>
-					<div class="row">
-						{% for post in site.categories.services limit:4  %}
-						{% if post.url != page.url %}
-	{% if forloop.index < 4 or found %}
-
-
-						<div class="col-lg-6 subsection-2">
-							<a class="h-100" href="{{ post.url }}">
-								<div class="card card--hover-shadow card-sm">
-									<h3 class="mb-2">{{ post.title }}</h3>
-									<p>{{ post.excerpt }}</p>
-								</div>
-							</a>
-						</div>
-						{% endif %}
-				  {% else %}
-				    {% assign found = true %}
-				  {% endif %}
-				{% endfor %}
-
-					</div>
-				</div>
-				<!--/.subsection-->
-			</div>
-		</section>
-		<!--/.section-->
 	</div>
-	<!--modals before footer-->
-	<!--.footer-->
-	{% include footer.html %}
+	<div class="container container--wider">
+							<figure>
+								<img class="img-full-width" src="img/{{ page.hero-img }}" alt="">
+								<div class="row">
+									<div class="col-lg-10">
+										<figcaption>{{ page.hero-img-caption }}</figcaption>
+									</div>
+								</div>
+							</figure>
+						</div>
+
+
+<!--.section-->
+<section class="section pt-0">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10">
+
+
+
+				{{ content }}
+			</div>
+		</div>
+		<div class="row my-4">
+			<div class="col-md-10">
+
+				<div class="alert alert-warning" role="alert">
+				<strong>FREE basic activation package</strong>
+				<br />
+				<br />
+				As an accredited FullStory Solutions Partner, I'm currently offering four FREE hours of strategy and analytics consulting for customers evaluating <em>Conversions</em>.
+				<br /><br />
+				I'll work with your team to identify and define the critical stages in your customer journey, then implement the custom events and watched elements that you need to start to unlock the power of Conversions.
+
+				<br /><br />Absolutely zero strings or obligations attached.</div>
+
+<br />
+
+
+				<h2 class="section-title">Want to find out more?</h2>
+				<p>Fill out your details below and I'll get back to you within 24 hours to organise a brief call to discuss.</p>
+
+
+
+
+				<form class="text-sm" action="https://formspree.io/op@publicbasic.com" method="POST">
+				<div class="row">
+				<div class="col-md-6">
+				<div class="form-group">
+				<label>Name</label>
+				<input type="text" placeholder="Your name" name="name" />
+				</div>
+				<div class="form-group">
+				<label>E-mail</label>
+				<input type="email" placeholder="Your email address" name="_replyto" />
+				</div>
+				<div class="form-group">
+				<label>Telephone</label>
+				<input type="tel" placeholder="Your best contact number" name="telephone" />
+				</div>
+				<div class="form-group">
+				<label>Website</label>
+				<input type="text" placeholder="Your website URL" name="url" />
+				</div>
+				<div class="form-group">
+				<div class="d-flex align-items-center">
+				<input class="btn btn-primary btn-lg" style="font-style: bold;" type="submit" value="Submit" id="strategySessionSubmit" /></div>
+				</div>
+				</form>
+
+			</div>
+		</div>
+
+
+
+</section>
+<!--/.section-->
+</div>
+
+<!--modals before footer-->
+
+{% include footer.html %}
