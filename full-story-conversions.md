@@ -4,7 +4,7 @@ title: "FullStory"
 hero-subhead: "Conversions implementation"
 subhead: "Let's identify and build out your critical events, funnels and segments and onboard your team to activate the full potential of FullStory's <em>Conversions</em>. 
 <br /><br />
-From basic setup, to advanced customisations and integrations, I can help ensure your business is set up for success.
+From basic setup, to advanced customisations and integrations, I'll ensure that your team is set up for success.
 "
 permalink: "/services/full-story-conversions/"
 slug: "full-story-conversions"
