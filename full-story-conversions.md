@@ -6,7 +6,7 @@ subhead: "Let's identify and build out your critical events, funnels and segment
 <br /><br />
 From basic setup, to advanced customisations and integrations, I can help ensure your business is set up for success.
 "
-permalink: "/services/full-story-conversions"
+permalink: "/services/full-story-conversions/"
 slug: "full-story-conversions"
 ---
 
