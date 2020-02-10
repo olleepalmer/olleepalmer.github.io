@@ -10,7 +10,7 @@ permalink: "/services/full-story-conversions/"
 slug: "full-story-conversions"
 ---
 
-{% include image-large.html name="full-story.svg" caption="A crap drawing of some of the cool things you can do with FullStory" %}
+{% include image-large.html name="full-story.svg" caption="A crap drawing of cool things you can do with FullStory" %}
 
 
 This comprehensive FullStory *Conversions* activation package works as a bridge between your business, your data and your customers. 
