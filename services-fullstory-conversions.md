@@ -15,9 +15,7 @@ slug: "full-story-conversions"
 
 This comprehensive FullStory *Conversions* activation package works as a bridge between your business, your data and your customers.
 
-I'll set-up your critical events, funnels and segments and onboard your team to activate the full potential of the platform.
-
-From basic setup, to advanced customisations and integrations, I'll ensure that your team is set up for success with _Conversions_.
+I'll set-up your critical events, funnels and segments and onboard your team to activate the power of _Conversions_. From basic set-up, to advanced customisations and integrations, I'll ensure that your team is set up for success.
 <br /><br />
 
 
