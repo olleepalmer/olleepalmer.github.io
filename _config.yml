@@ -27,6 +27,7 @@ parse_block_html: false
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+markdown: kramdown
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
