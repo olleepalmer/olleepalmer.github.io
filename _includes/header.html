@@ -61,41 +61,12 @@ img.img-full-width {
 End exta CSS -->
 	<!-- Segment.com tracking code -->
 	<script>
-		! function() {
-			var analytics = window.analytics = window.analytics || [];
-			if (!analytics.initialize)
-				if (analytics.invoked) window.console && console.error && console.error("Segment snippet included twice.");
-				else {
-					analytics.invoked = !0;
-					analytics.methods = ["trackSubmit", "trackClick", "trackLink", "trackForm", "pageview", "identify", "reset", "group", "track", "ready", "alias", "debug", "page", "once", "off", "on"];
-					analytics.factory = function(t) {
-						return function() {
-							var e = Array.prototype.slice.call(arguments);
-							e.unshift(t);
-							analytics.push(e);
-							return analytics
-						}
-					};
-					for (var t = 0; t < analytics.methods.length; t++) {
-						var e = analytics.methods[t];
-						analytics[e] = analytics.factory(e)
-					}
-					analytics.load = function(t, e) {
-						var n = document.createElement("script");
-						n.type = "text/javascript";
-						n.async = !0;
-						n.src = "https://cdn.segment.com/analytics.js/v1/" + t + "/analytics.min.js";
-						var a = document.getElementsByTagName("script")[0];
-						a.parentNode.insertBefore(n, a);
-						analytics._loadOptions = e
-					};
-					analytics.SNIPPET_VERSION = "4.1.0";
-					analytics.load("AK04LLoeQWLs2TAf6whlxCwsEqmrSaNh");
-					analytics.page();
-				}
-		}();
+	  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var t=analytics.methods[e];analytics[t]=analytics.factory(t)}analytics.load=function(e,t){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src="https://cdn.segment.com/analytics.js/v1/"+e+"/analytics.min.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(n,a);analytics._loadOptions=t};analytics.SNIPPET_VERSION="4.1.0";
+	  analytics.load("AK04LLoeQWLs2TAf6whlxCwsEqmrSaNh");
+	  analytics.page();
+	  }}();
 	</script>
-	<!-- Pageview tracking -->
+		<!-- Pageview tracking -->
 	<script type="text/javascript">
 		analytics.track('Page viewed', {
 			date: new Date()
@@ -119,20 +90,6 @@ End exta CSS -->
     'user_id': 'replace with value'
   });
 </script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117752780-1"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-
-gtag('config', 'UA-117752780-1', { 'optimize_id': 'GTM-5DXWHX6'});
-</script>
-
-
-	<!-- Google Web Console verification -->
-	<meta name="google-site-verification" content="NXneJm3YEeDoEkvTbmAKGVk5UWFNlWXmwEmvgo4aGzA" />
-	<!-- End Google Web Console verification -->
 	</head>
 
 	<body>
