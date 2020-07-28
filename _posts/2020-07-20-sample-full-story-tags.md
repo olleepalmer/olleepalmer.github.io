@@ -9,6 +9,9 @@ permalink: "/blog/sample-full-story-tags"
 slug: "2020-07-20--sample-full-story-tags"
 ---
 
+{% include callout.html type="warning" emoji="⭐️" title="This is not a comprehensive review" body="so much as it’s a reflection of my own two weeks using the product" %}
+
+
 Out of the box, Full Story does not offer any sampling: if you buy a license for 3m visitors and your site gets 50m visitors/month, then you’ll exhaust your impressions within the first week.
 
 Which is a problem.
