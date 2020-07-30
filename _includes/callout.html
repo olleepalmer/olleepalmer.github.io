@@ -1,14 +1,19 @@
 {::nomarkdown}
+
 {% if include.type %}
 <div class="alert alert-{{ include.type }}" role="alert">
 {% else %}
 <div class="alert alert-warning" role="alert">
 {% endif %}
   <div class="row">
+    {% if include.emoji %}
     <div class="col-1">
       {{ include.emoji }}
     </div>
-    <div class="col-11">
+    <div class="col-10 col-sm-11">
+    {% else %}
+    <div class="col-12">
+      {% endif %}
       <strong>
         {{ include.title }}
       </strong>
