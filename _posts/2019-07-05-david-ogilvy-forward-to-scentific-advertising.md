@@ -4,6 +4,7 @@ title:  "David Ogilvy's forward to Scientific Advertising"
 hero-header: "David Ogilvy's 1964 forward to Scientific Advertising"
 subhead: "The full text of David Ogilvy's 1964 forward to Scentific Advertising by his mentor Claude Hopkins. I bought an overpriced copy of the book so that you don't have to."
 excerpt: "The full text of David Ogilvy's 1964 forward to <em>Scentific Advertising</em> by his mentor Claude Hopkins. I bought an overpriced copy of the book so that you don't have to."
+description: "The full text of David Ogilvy's 1964 forward to <em>Scentific Advertising</em> by his mentor Claude Hopkins. I bought an overpriced copy of the book so that you don't have to."
 permalink: "/blog/david-ogilvy-forward-to-scentific-advertising"
 category: blog
 ---
