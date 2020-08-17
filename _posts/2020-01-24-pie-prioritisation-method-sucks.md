@@ -11,7 +11,7 @@ slug: "2020-01-24-pie-prioritisation-method-sucks"
 description: "Some thoughts about the PIE method for A/B test prioritisation"
 ---
 
-{% include image-large.html name="pie-score.svg" caption="PIE score: Ostensibly the average of three guesstimates" %}
+
 
 If you’re running more than one or two A/B tests a month, you need a prioritisation method. If you’re working with a team that’s bigger than just you, you need a prioritisation method.
 
@@ -58,7 +58,11 @@ If you scroll down to the comments section at the bottom of [the blog post which
 > _Isn’t the PIE score just an aggregation of a few guesstimates turned into a number out of ten?_
 
 
-{% include image-large.html name="ocp-pie-troll.jpg" caption="Me anonymously trolling on the original PIE score blog post" %}
+
+{% include image-columns.html name="ocp-pie-troll.jpg" caption="Me anonymously trolling on the original PIE score blog post on the Wider Funnel blog" %}
+
+
+
 
 To which Chris thoughtfully responds:
 

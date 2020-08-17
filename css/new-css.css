@@ -63,6 +63,12 @@ h2
 
 }
 
+@media print, screen and (max-width: 767px)
+.container--lg {
+    padding-right: 0;
+    padding-left: 0
+	}
+
 @media (min-width: 768px) {
 
 h2
@@ -78,3 +84,4 @@ h2
   color: red;
 
  }
+}

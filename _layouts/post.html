@@ -6,9 +6,6 @@
 				{% if page.title %}
 				<h1>{{ page.title }}</h1>
 				{% endif %}
-				<p class="text-muted">
-				{{ page.date | date: '%B %d, %Y' }}
-</p>
 <div class="row">
 	<div class="col-lg-10">
 
@@ -21,6 +18,9 @@
 				{% if page.cta-eyebrow %}
 				<p class="small">{{ page.eyebrow }}</p>
 				{% endif %}
+				<p class="text-muted">
+				{{ page.date | date: '%B %d, %Y' }}
+				</p>
 				</div>
 				</div>
 			</div>
@@ -44,9 +44,10 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-10">
+
+
 				{{ content }}
 
-				{% include comments.html %}
 
 
 			</div>
