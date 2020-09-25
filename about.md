@@ -1,5 +1,5 @@
 ---
-layout: about-yo
+layout: about
 title: "Melbourne CRO consultant, Conversion Rate Optimisation"
 permalink: "/about"
 description: "I'm a Conversion Rate Optimisation (CRO) consultant based in Melbourne"
