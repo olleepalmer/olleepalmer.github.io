@@ -1,7 +1,7 @@
 ---
 layout: services
 title: "Melbourne CRO consultant, Conversion Rate Optimisation"
-permalink: "/services"
+permalink: "/services/"
 hero-header: "Services"
 description: "I make existing websites, apps and digital services more usable, more delightful and more profitable."
 hero-subhead: "I make existing websites, apps and digital services more usable, more delightful and more profitable."
