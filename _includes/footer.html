@@ -4,27 +4,59 @@
 	<footer class="footer text-sm">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-6 order-2 order-md-1">
 						<div class="subsection-lg">
-							<h4 class="mb-2">Get in touch </h4>
-							<p>Oliver Palmer
-								<br><a href="tel:+61451442720">+614 5144 2720</a>
-								<br><a href="mailto:op@publicbasic.com">op@publicbasic.com</a>
-							</p>
 
-						</div>
-					</div>
-					<div class="col-md-6 text-md-right">
-						<div class="subsection-lg">
-						
-							<p><a href="#top">Back to top </a>
+							<p>
+																	&copy; {{ "now" | date: "%Y" }} Oliver Palmer
 							</p>
 
 
 
 						</div>
-					</div>
+
 				</div>
+
+				<div class="col-md-6 text-md-right order-1 order-md-2">
+						<div class="subsection-lg">
+									<ul class="navbar-nav">
+
+										<!--add class="active" to current page link-->
+
+										<!-- check the url for the desired uri part -->
+										{% assign uri_parts = page.url | split: '/' %}
+										{% for uri_part in uri_parts %}
+										{% assign part = uri_part | remove: '/' | remove: '.html' | downcase %}
+
+										{% if part == 'our-work' %}
+										{% assign page_is = part %}
+										{% elsif part == 'services' %}
+										{% assign page_is = part %}
+										{% elsif part == 'blog' %}
+										{% assign page_is = part %}
+										{% elsif part == 'about' %}
+										{% assign page_is = part %}
+										{% endif %}
+										{% endfor %}
+										<!-- end checking the url -->
+										<li class="nav-item"><a class="nav-link hover-underline {% if page.url == '/' %}active{% endif %}" href="/">Home</a>
+										</li>
+										<li class="nav-item"><a class="nav-link hover-underline {% if page_is == 'about' %}active{% endif %}" href="/about">About</a>
+										</li>
+										<li class="nav-item"><a class="nav-link hover-underline {% if page_is == 'services' %}active{% endif %}" href="/services">Services</a>
+										</li>
+										<li class="nav-item"><a class="nav-link hover-underline {% if page_is == 'blog' %}active{% endif %}" href="/blog">Blog</a>
+										</li>
+
+
+									</ul>
+
+
+						</div>
+</div>
+
+
+
 		</footer>
 
 
