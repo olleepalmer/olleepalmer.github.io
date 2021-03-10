@@ -1,0 +1,41 @@
+{% include header.html %}
+<div class="page-content">
+	<div class="hero">
+		<div class="container">
+			<div class="subsection">
+				{% if page.hero-header %}
+				<h1>{{ page.hero-header }}</h1>
+				{% endif %}
+				{% if page.hero-subhead %}
+				<p class="hero-text">{{ page.hero-subhead }}</p>
+				{% endif %}
+				{% if page.hero-p %}
+				<p>{{ page.hero-p }}</p>
+				{% endif %}
+				{% if page.hero-cta %}
+				<a class="btn btn-primary btn-lg mt-1" href="/services/strategy-session" id="topStrategySession">{{ page.hero-cta }}</a>
+				{% endif %}
+				{% if page.cta-eyebrow %}
+				<p class="small">{{ page.eyebrow }}</p>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+
+	<!-- Calendly badge widget begin -->
+	<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+	<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+	<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/oliver-palmer/30-min-initial-consultation', text: 'Schedule time with me', color: '#00a2ff', textColor: '#ffffff', branding: false }); }</script>
+	<!-- Calendly badge widget end -->
+
+
+
+
+
+</div>
+
+
+	<!--/.section-->
+</div>
+<!--modals before footer-->
+{% include footer.html %}
