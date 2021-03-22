@@ -6,7 +6,7 @@ subhead: "The best way to optimise your website is normally the simplest."
 excerpt: "The best way to optimise your website is normally the simplest."
 description: "The best way to optimise your website is normally the simplest."
 categories: [blog]
-image: "/img/poppy-illustration.svg"
+image: "/img/poppy-illustration"
 permalink: "/blog/you-probably-dont-need-ab-testing"
 slug: "2021-03-18-you-probably-dont-need-ab-testing"
 ---
