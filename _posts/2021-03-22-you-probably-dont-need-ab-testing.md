@@ -18,7 +18,7 @@ Most of the time, though, I have to break it to them that A/B testing is probabl
 
 So, how can you tell if A/B testing is right for you? In this article, I’m going to outline the criteria that you need to set up an effective program. If your business doesn’t fit the bill, I’ll suggest a powerful alternative that you can use instead.
 
-## Optimisation begins with research
+## Optimisation starts with research
 
 There is a popular misconception that A/B testing tools are miraculous money printing machines that turn average websites into winners, no human intervention required.
 
