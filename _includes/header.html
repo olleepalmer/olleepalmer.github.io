@@ -64,7 +64,7 @@
 <meta name="twitter:title"   content="{{ page.title }}">
 
 {% if page.summary %}
-<meta name="twitter:description" content="{{ post.excerpt }}">
+<meta name="twitter:description" content="{{ page.excerpt }}">
 {% else %}
 <meta name="twitter:description" content="{{ site.description }}">
 {% endif %}
@@ -83,7 +83,7 @@
 <meta name="title" property="og:title" content="{{ page.title }}">
 <meta property="og:type" content="website">
 <meta name="image" property="og:image" content="{{ site.url }}{{ page.image }}-twitter-card.png">
-<meta name="description" property="og:description" content="{{ post.excerpt }}">
+<meta name="description" property="og:description" content="{{ page.excerpt }}">
 <meta name="author" content="Oliver Palmer">
 
 <!-- end of Opengraph cards -->
