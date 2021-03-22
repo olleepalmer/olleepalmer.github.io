@@ -1,6 +1,6 @@
 ---
 layout: services
-title: "Melbourne CRO consultant, Conversion Rate Optimisation"
+title: "Conversion Rate Optimisation (CRO) consultant"
 permalink: "/services"
 hero-header: "Services"
 description: "I make existing websites, apps and digital services more usable, more delightful and more profitable."
