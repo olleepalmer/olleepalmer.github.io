@@ -9,6 +9,7 @@ categories: [blog]
 permalink: "/blog/you-probably-dont-need-ab-testing"
 slug: "2021-03-18-you-probably-dont-need-ab-testing"
 ---
+{% include image-large.html name="poppy-illustration.svg" caption="" %}
 
 More than ever, I speak with businesses that have ambitions of setting up their own optimisation programs. They’ve heard the success stories, swallowed the hype and are ready to strap their conversion rate on a rocket to the outer reaches of the stratosphere.
 
@@ -18,17 +19,17 @@ So, how can you tell if A/B testing is right for you? In this article, I’m goi
 
 ## Optimisation begins with research
 
-There is a popular misconception that A/B testing tools are miraculous money printing machines that turn average websites into winners, no human intervention required. 
+There is a popular misconception that A/B testing tools are miraculous money printing machines that turn average websites into winners, no human intervention required.
 
-If you believe the breathless case studies promoted by enthusiastic practitioners and software vendors alike, A/B testing involves slicing your site into a zillion pieces then dynamically recombining it into every different conceivable combination. 
+If you believe the breathless case studies promoted by enthusiastic practitioners and software vendors alike, A/B testing involves slicing your site into a zillion pieces then dynamically recombining it into every different conceivable combination.
 
 This game of algorithmic bingo comes to an end when the software magically finds the winning combination. Green buttons have become blue, hero images are swapped around and now the conversion rate has increased by 8000%. WRRRONG!  
 
 This misconception of ‘pure’ algorithmic optimisation cues periodic outrage from UX designers who see themselves competing against a faceless optimisation machine. “You can’t incrementally A/B test your way to perfection!” they argue. And they are right. Good A/B testing doesn’t work like this at all.
 
-The greatest A/B tests almost invariably have their origins in qualitative insight. When someone strikes conversion gold by changing a button colour, it’s not by accident. It’s because they addressed an existing problem. More than likely, this was identified by sitting down and closely observing the behaviour of real users. They observed that people didn’t notice the existing button (normally due to insufficient size or contrast), fixed it with an A/B test and graduated to the next stage of having a less awful website. The colour change was the means to fix the problem, not the problem itself. 
+The greatest A/B tests almost invariably have their origins in qualitative insight. When someone strikes conversion gold by changing a button colour, it’s not by accident. It’s because they addressed an existing problem. More than likely, this was identified by sitting down and closely observing the behaviour of real users. They observed that people didn’t notice the existing button (normally due to insufficient size or contrast), fixed it with an A/B test and graduated to the next stage of having a less awful website. The colour change was the means to fix the problem, not the problem itself.
 
-Immature A/B testing programs often waste months or years cargo culting these apocryphal tests from Christmases past without seeing any proper results. All the while, they’re missing the veritable gold mine of insights right beneath their noses in plain old, boring qualitative user research. 
+Immature A/B testing programs often waste months or years cargo culting these apocryphal tests from Christmases past without seeing any proper results. All the while, they’re missing the veritable gold mine of insights right beneath their noses in plain old, boring qualitative user research.
 
 Sitting down and watching real users try to make sense of your website is the quickest, easiest, most powerful way to unlock transformative insights. Once you combine these insights with hypothesis-driven optimisation, validated at scale… Well, that’s when the magic happens. However, A/B testing comes with many caveats. It’s not always the best way to optimise your website and depending on your circumstances, may even be an enormous waste of time.
 
@@ -44,27 +45,27 @@ Statistical significance is a way to measure the chance that what we have observ
 <li>Minimum detectable effect</li>
 </ul>
 
-Let’s say you’re an eCommerce store and your existing conversion rate is 2.5%. 
+Let’s say you’re an eCommerce store and your existing conversion rate is 2.5%.
 
 If you were to deploy an A/B test that increased the conversion rate by 5% (minimum detectable effect) and you wanted to achieve 99% significance (a 1/100 chance that the observed result was due to other factors aside from your test), you would need 330,000 visitors per variation (sample size).
 
-That's 660k visitors to test just a single variation against a Control. That’s a lot! 
+That's 660k visitors to test just a single variation against a Control. That’s a lot!
 
-You need a lot of traffic to pull it off in any reasonable sort of time. 
+You need a lot of traffic to pull it off in any reasonable sort of time.
 
-After you've fixed all the seriously broken stuff and plucked the 'low hanging fruit', a 5% conversion rate uplift is fairly rare. 
+After you've fixed all the seriously broken stuff and plucked the 'low hanging fruit', a 5% conversion rate uplift is fairly rare.
 
 So, you’re going to meet more traffic still.
 
 What about a 2% uplift?
 
-This is still a great result! 
+This is still a great result!
 
-But in that case, you'd need almost 5m visitors to test a single variation. 
+But in that case, you'd need almost 5m visitors to test a single variation.
 
 If you’re saying, “But that would take forever! And all for a measly 2% uplift!” then you're beginning to understand something important: you need to have significant scale to A/B test efficiently.
 
-If you don't have enough traffic, you'll make the classic mistake of letting your test run too long with no chance of ever getting a good result. For good A/B testing, you need so much traffic that putting half a million users through a test 
+If you don't have enough traffic, you'll make the classic mistake of letting your test run too long with no chance of ever getting a good result. For good A/B testing, you need so much traffic that putting half a million users through a test
 
 Most of the tests are not going to give you a big uplift, so you need to be continually refining and iterating and running new tests. But when you do have that much traffic, your revenues are significant enough that a 2% uplift isn’t trivial. For example, one of my clients that achieved a 2.7% conversion uplift recently has projected that this change will make them about $20 million over the next 12 months.
 
@@ -72,7 +73,7 @@ For the websites that do have enormous fire-hoses of traffic, A/B testing is a t
 
 ## Without scale, use qualitative research
 
-Just because you don’t have the scale for A/B testing, it doesn’t mean that you can’t optimise your website. The best A/B testing programs find their insights in qualitative research with 5-10 users and then validate these findings at scale with thousands or millions of visitors. If you don’t have that kind of scale, you can still undertake the research and get some transformative results. 
+Just because you don’t have the scale for A/B testing, it doesn’t mean that you can’t optimise your website. The best A/B testing programs find their insights in qualitative research with 5-10 users and then validate these findings at scale with thousands or millions of visitors. If you don’t have that kind of scale, you can still undertake the research and get some transformative results.
 
 One of the most appealing aspects of user research is that it can be as simple or as complex as you want it to be. You don’t need to have a dedicated usability ‘lab’ with eye-tracking sensors and a team of researchers taking notes from the other side of two-way glass. Sitting down with a friend or colleague and asking them to verbalise their thoughts as they complete a task on your website is a surprisingly powerful method of unearthing cringe-worthy, why-didn’t-I-think-of-that-sooner insights.
 
