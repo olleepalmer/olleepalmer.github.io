@@ -78,7 +78,15 @@
 {% endif %}
 <!-- end of Twitter cards -->
 
+<!-- Opengraph cards -->
 
+<meta name="title" property="og:title" content="{{ page.title }}">
+<meta property="og:type" content="website">
+<meta name="image" property="og:image" content="{{ site.url }}{{ page.image }}-twitter-card.png">
+<meta name="description" property="og:description" content="{{ post.excerpt }}">
+<meta name="author" content="Oliver Palmer">
+
+<!-- end of Opengraph cards -->
 
 	<!-- Extra CSS
 <style>
