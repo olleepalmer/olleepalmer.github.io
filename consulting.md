@@ -1,5 +1,5 @@
 ---
-layout: services
+layout: consulting
 title: "Conversion Rate Optimisation (CRO) consultant"
 permalink: "/consulting"
 hero-header: "Consulting"
@@ -65,7 +65,7 @@ By aligning business goals with a framework of measurable outcomes, I'll help yo
 I'm experienced with Google Analytics/GTM, Adobe Analytics and Segment as well as Heap, Mixpanel, Ampltiude and most of the others.
 </p>
 <h2 class="mt-5">
-Consulting & training 💼
+Training and advice 💼
 </h2>
 <p>
 I do lots of different work helping clients to get the best out of their website, their team and their tools.
@@ -80,3 +80,15 @@ Here's a selection of the things that I typically help with:
 <li>Analytics for Designers</li>
 <li>Team training</li>
 </ul>
+
+<br /><br />
+<div class="border bg-warning px-5 py-5 mt-5">
+<h2 class="mt-5">Want to work together? </h2>
+
+<p>
+I'm periodically available for new client engagements. Get in touch to discuss how I might be able to help.
+</p>
+<a class="btn btn-primary btn-lg mt-1" href="/services/free-consultation" id="">Get in touch</a>
+</div>
+
+</div>
