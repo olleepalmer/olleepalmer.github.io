@@ -11,6 +11,9 @@
 <meta http-equiv='expires' content='0'>
 <meta http-equiv='pragma' content='no-cache'>
 
+
+
+
 	<!-- Meta-->
 	<meta charset="utf-8">
 	<!-- Title-->
@@ -48,10 +51,32 @@
 	<!-- Meta description -->
 
 
+
+
+
 {% if page.description %}
 <meta name="description" content="{{ page.description }}">
 {% endif %}
 
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@ollee">
+<meta name="twitter:creator" content="@ollee">
+<meta name="twitter:title"   content="{{ page.title }}">
+
+{% if page.summary %}
+<meta name="twitter:description" content="{{ page.summary }}">
+{% else %}
+<meta name="twitter:description" content="{{ site.description }}">
+{% endif %}
+
+{% if page.image %}
+<meta name="twitter:card"  content="summary_large_image">
+<meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+{% else %}
+<meta name="twitter:card"  content="summary">
+<meta name="twitter:image" content="{{ site.title_image }}">
+{% endif %}
+<!-- end of Twitter cards -->
 
 
 

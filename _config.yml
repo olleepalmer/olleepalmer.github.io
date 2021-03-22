@@ -15,12 +15,10 @@
 # in the templates via {{ site.myvariable }}.
 title: Oliver Palmer
 email: op@publicbasic.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+twitter_username: ollee
+description: I'm a Conversion Rate Optimisation consultant, helping my clients to increase their conversion rates, make better decisions informed by data and delight their customers.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.oliverpalmer.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://oliverpalmer.com" # the base hostname & protocol for your site, e.g. http://example.com
 parse_block_html: false
 # Build settings
 # theme: jekyll-theme-cayman
@@ -29,6 +27,7 @@ plugins:
 #  - jekyll-sitemap
 markdown: kramdown
 highlighter: rouge
+title_image: https://oliverpalmer.com/img/oliver-palmer-at-desk.jpg
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
