@@ -1,6 +1,7 @@
 ---
 layout: consulting
 title: "Conversion Rate Optimisation (CRO) consultant"
+hero-subhead: "I work with enterprise scale clients seeking to increase conversion rates, reduce the cost of customer acquisition and delight their users "
 permalink: "/consulting"
 hero-header: "Consulting"
 ---
