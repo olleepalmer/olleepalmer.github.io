@@ -36,7 +36,25 @@
 	<meta charset="utf-8">
 	<!-- Title-->
 	<title>Oliver Palmer | {{page.title}}</title>
-	<!-- Viewport-->
+	<!-- Google structured data-
+	{% if page.id %}
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "NewsArticle",
+		"headline": "Article headline",
+		"image": [
+			"https://example.com/photos/1x1/photo.jpg",
+			"https://example.com/photos/4x3/photo.jpg",
+			"https://example.com/photos/16x9/photo.jpg"
+		 ],
+		"datePublished": "2015-02-05T08:00:00+08:00",
+		"dateModified": "2015-02-05T09:20:00+08:00"
+	}
+	</script>
+	{% endif %}
+-->
+		<!-- Viewport-->
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=3.0, user-scalable=yes">
 	<!-- Favicon-->
 	<link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png.html">
@@ -182,14 +200,14 @@ End exta CSS -->
 								{% endif %}
 								{% endfor %}
 								<!-- end checking the url -->
-								<li class="nav-item"><a class="nav-link hover-underline {% if page.url == '/' %}active{% endif %}" href="/">Home</a>
-								</li>
+						
 								<li class="nav-item"><a class="nav-link hover-underline {% if page_is == 'blog' %}active{% endif %}" href="/blog">Blog</a>
-								</li>
-								<li class="nav-item"><a class="nav-link hover-underline {% if page_is == 'about' %}active{% endif %}" href="/about">About</a>
 								</li>
 								<li class="nav-item"><a class="nav-link hover-underline {% if page_is == 'consulting' %}active{% endif %}" href="/consulting">Consulting</a>
 								</li>
+								<li class="nav-item"><a class="nav-link hover-underline {% if page_is == 'about' %}active{% endif %}" href="/about">About</a>
+								</li>
+
 
 
 
