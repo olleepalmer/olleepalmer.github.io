@@ -1,8 +1,8 @@
 ---
 layout: about
-title: "Melbourne CRO consultant, Conversion Rate Optimisation"
+title: "Conversion Rate Optimisation consultant"
 permalink: "/about"
-description: "Conversion Rate Optimisation"
+description: "I make make existing websites and digital services more profitable, usable and delightful"
 hero-header: "Conversion Rate Optimisation consultant"
-hero-subhead: "I make make existing websites and digital services more profitable, usable and delightful."
+hero-subhead: "I make make existing websites and digital services more profitable, usable and delightful"
 ---
