@@ -3,7 +3,6 @@ layout: consulting
 title: "Conversion Rate Optimisation (CRO) consultant"
 permalink: "/consulting"
 hero-header: "Consulting"
-description: "I make existing websites, apps and digital services more usable, more delightful and more profitable."
 ---
 
 <h2 class="mt-5">
