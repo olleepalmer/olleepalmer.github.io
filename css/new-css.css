@@ -10,6 +10,12 @@ padding: 0.2em 0.4em;
 margin: 1px;
 }
 
+.logo
+{
+	font-size: 1em;
+	font-weight: normal;
+}
+
 figure.highlight
 {
 	background-color: #FFFBF1;

@@ -4,8 +4,6 @@ title: "Conversion Rate Optimisation (CRO) consultant"
 permalink: "/consulting"
 hero-header: "Consulting"
 description: "I make existing websites, apps and digital services more usable, more delightful and more profitable."
-hero-subhead: "I make existing websites, apps and digital services more usable, more delightful and more profitable."
-hero-p: "I am typically engaged to help increase conversion rates, tune-up analytics and build or scale optimisation programs."
 ---
 
 <h2 class="mt-5">
