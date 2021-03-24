@@ -6,11 +6,11 @@ subhead: "The best way to optimise your website is normally the simplest."
 excerpt: "The best way to optimise your website is normally the simplest."
 description: "The best way to optimise your website is normally the simplest."
 categories: [blog]
-image: "/img/poppy-illustration"
+image: "/img/poppy-illustration.png"
 permalink: "/blog/you-probably-dont-need-ab-testing"
 slug: "2021-03-18-you-probably-dont-need-ab-testing"
 ---
-{% include image-large.html name="poppy-illustration.svg" caption="" %}
+{% include image-large.html name="poppy-illustration.png" caption="Illustration by @popiumworks" %}
 
 More than ever, I speak with businesses that have ambitions of setting up their own optimisation programs. They’ve heard the success stories, swallowed the hype and are ready to strap their conversion rate on a rocket to the outer reaches of the stratosphere.
 
