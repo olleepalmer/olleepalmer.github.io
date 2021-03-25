@@ -10,7 +10,7 @@ image: "/img/poppy-illustration.png"
 permalink: "/blog/you-probably-dont-need-ab-testing"
 slug: "2021-03-18-you-probably-dont-need-ab-testing"
 ---
-{% include image-large.html name="poppy-illustration.png" caption="Illustration by @popiumworks" %}
+{% include image-large.html name="poppy-illustration.png" caption="Illustration by @popiumworks" alt="Illustration of website optimisation" %}
 
 More than ever, I speak with businesses that have ambitions of setting up their own optimisation programs. They’ve heard the success stories, swallowed the hype and are ready to strap their conversion rate on a rocket to the outer reaches of the stratosphere.
 
