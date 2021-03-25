@@ -2,9 +2,9 @@
 layout: post
 title:  "You probably don’t need A/B testing"
 hero-header: "You probably don’t need A/B testing"
-subhead: "The best way to optimise your website is normally the simplest."
-excerpt: "The best way to optimise your website is normally the simplest."
-description: "The best way to optimise your website is normally the simplest."
+subhead: "The best way to optimise your website is usually the simplest."
+excerpt: "The best way to optimise your website is usually the simplest."
+description: "The best way to optimise your website is usually the simplest."
 categories: [blog]
 image: "/img/poppy-illustration.png"
 permalink: "/blog/you-probably-dont-need-ab-testing"
