@@ -34,8 +34,6 @@
 	<link href="/css/featherlight.css" type="text/css" rel="stylesheet" />
 	<!-- Meta-->
 	<meta charset="utf-8">
-	<!-- Title-->
-	<title>Oliver Palmer | {{page.title}}</title>
 	<!-- Google structured data-
 	{% if page.id %}
 	<script type="application/ld+json">
@@ -72,10 +70,6 @@
 
 
 
-{% if page.excerpt %}
-<meta name="description" content="{{ page.excerpt }}">
-{% endif %}
-
 <!-- Twitter cards -->
 <meta name="twitter:site"    content="@ollee">
 <meta name="twitter:creator" content="@ollee">
@@ -101,7 +95,10 @@
 <meta name="title" property="og:title" content="{{ page.title }}">
 <meta property="og:type" content="website">
 <meta name="image" property="og:image" content="{{ site.url }}{{ page.image }}">
+{% if page.excerpt %}
 <meta name="description" property="og:description" content="{{ page.excerpt }}">
+{% endif %}
+
 <meta name="author" content="Oliver Palmer">
 
 <!-- end of Opengraph cards -->
