@@ -37,36 +37,30 @@
 	{% if page.id %}
 	<script type=”application/ld+json”>
 		{
-		"@context”: “http://schema.org”,
-		"@type”: “BlogPosting”,
-		“mainEntityOfPage”:{
-		"@type”:”WebPage”,
-		"@id”: "{{ site.url}}{{ page.url }}"
-		},
-		“headline”: "{{ page.title }}",
-		“image”: {
-		"@type”: “ImageObject”,
-		“url”: "{{ site.url }}{{ page.image }}",
-		},
-		“datePublished”: "{{ page.date | date: "%B %e, %Y" }}",
-		“dateModified”: "{{ page.date | date: "%B %e, %Y" }}",
-		“author”: {
-		"@type”: “Person”,
-		“name”: Oliver Palmer
-		},
-		“publisher”: {
-		"@type”: "Person",
-		“name”: Oliver Palmer,
-		“logo”: {
-		"@type”: “ImageObject”,
-		“url”: "https://oliverpalmer.com/img/oliver-palmer-at-desk.jpg",
-		“width”: 2000,
-		“height”: 1331
-		}
-		},
-		"description" "{{ page.excerpt }}",
-		}
-	</script>
+			"@context": "http://schema.org",
+			"@type": "BlogPosting",
+			"mainEntityOfPage": {
+				"@type": "WebPage",
+				"@id": "{{ site.url}}{{ page.url }}"
+			},
+			"headline": "{{ page.title }}",
+			"image": {
+				"@type": "ImageObject",
+				"url": "{{ site.url }}{{ page.image }}"
+			},
+			"datePublished": "{{ page.date | date: "%Y-%m-%d" }}",
+			"dateModified": "{{ page.date | date: "%Y-%m-%d" }}",
+            "author": {
+				"@type": "Person",
+				"name": "Oliver Palmer"
+			},
+			"publisher": {
+				"@type": "Person",
+				"name": "Oliver Palmer"
+				}
+			},
+			"description": "{{ page.excerpt }}"
+		}	</script>
 	{% endif %}
 
 		<!-- Viewport-->
