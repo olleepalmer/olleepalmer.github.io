@@ -34,24 +34,41 @@
 	<link href="/css/featherlight.css" type="text/css" rel="stylesheet" />
 	<!-- Meta-->
 	<meta charset="utf-8">
-	<!-- Google structured data-
 	{% if page.id %}
-	<script type="application/ld+json">
-	{
-		"@context": "https://schema.org",
-		"@type": "NewsArticle",
-		"headline": "Article headline",
-		"image": [
-			"https://example.com/photos/1x1/photo.jpg",
-			"https://example.com/photos/4x3/photo.jpg",
-			"https://example.com/photos/16x9/photo.jpg"
-		 ],
-		"datePublished": "2015-02-05T08:00:00+08:00",
-		"dateModified": "2015-02-05T09:20:00+08:00"
-	}
+	<script type=”application/ld+json”>
+		{
+		"@context”: “http://schema.org”,
+		"@type”: “BlogPosting”,
+		“mainEntityOfPage”:{
+		"@type”:”WebPage”,
+		"@id”: "{{ site.url}}{{ page.url }}"
+		},
+		“headline”: "{{ page.title }}",
+		“image”: {
+		"@type”: “ImageObject”,
+		“url”: "{{ site.url }}{{ page.image }}",
+		},
+		“datePublished”: "{{ page.date | date: "%B %e, %Y" }}",
+		“dateModified”: "{{ page.date | date: "%B %e, %Y" }}",
+		“author”: {
+		"@type”: “Person”,
+		“name”: Oliver Palmer
+		},
+		“publisher”: {
+		"@type”: "Person",
+		“name”: Oliver Palmer,
+		“logo”: {
+		"@type”: “ImageObject”,
+		“url”: "https://oliverpalmer.com/img/oliver-palmer-at-desk.jpg",
+		“width”: 2000,
+		“height”: 1331
+		}
+		},
+		"description" "{{ page.excerpt }}",
+		}
 	</script>
 	{% endif %}
--->
+
 		<!-- Viewport-->
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=3.0, user-scalable=yes">
 	<!-- Favicon-->

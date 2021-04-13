@@ -28,7 +28,6 @@ plugins:
 markdown: kramdown
 highlighter: rouge
 title_image: https://oliverpalmer.com/img/oliver-palmer-at-desk.jpg
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
