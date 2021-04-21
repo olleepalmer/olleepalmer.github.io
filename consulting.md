@@ -44,7 +44,7 @@ Many new optimisation programs end up being staffed by an inexperienced team wit
 Organisational structure
 </h3>
 <p>
-Where should optimisation sit in the org chart. UX? Data? Product? Tech? Or Centre of Excellence? Everyone does it differently and getting it wrong is the kiss of death for optimisation in your business. So many teams are assembled without the right training and experience, inadequately structured and then left to languish in obscurity or crumble under the heavy burden of executive expectations.</p>
+Where should optimisation sit in the org chart? UX? Data? Product? Tech? Centre of excellence? Everyone does it differently and getting it wrong is the kiss of death for optimisation in your business. So many teams are assembled without the right training and experience, inadequately structured and then left to languish in obscurity or crumble under the heavy burden of executive expectations.</p>
 
 <h3>
 There is no playbook
