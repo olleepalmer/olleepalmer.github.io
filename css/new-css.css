@@ -9,6 +9,10 @@ font-size: 85%;
 padding: 0.2em 0.4em;
 margin: 1px;
 }
+h3 {
+  margin-bottom: 8px !important;
+  margin-top: 32px !important;
+}
 
 .btn
 {
