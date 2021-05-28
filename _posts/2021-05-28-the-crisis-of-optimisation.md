@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "The Crisis of Optimisation"
-hero-header: "The Crisis of Optimisation"
+title: "The crisis of optimisation"
+hero-header: "The crisis of optimisation"
 subhead: "If academic research science is having a crisis of integrity, then what can we expect from the world closed door corporate A/B testing?"
 excerpt: "If academic research science is having a crisis of integrity, then what can we expect from the world closed door corporate A/B testing?"
 description: "If academic research science is having a crisis of integrity, then what can we expect from the world closed door corporate A/B testing?"
