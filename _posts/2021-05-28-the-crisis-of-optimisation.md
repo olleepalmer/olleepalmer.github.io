@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "The crisis of optimisation"
-hero-header: "The crisis of optimisation"
+title: "The Crisis of Optimisation"
+hero-header: "The Crisis of Optimisation"
 subhead: "If academic research science is having a crisis of integrity, then what can we expect from the world closed door corporate A/B testing?"
 excerpt: "If academic research science is having a crisis of integrity, then what can we expect from the world closed door corporate A/B testing?"
 description: "If academic research science is having a crisis of integrity, then what can we expect from the world closed door corporate A/B testing?"
@@ -63,9 +63,9 @@ The stage is set for this conflict well before the team is hired or the agency a
 
 Running an experimentation program at scale comes with a high cost. In most organisations, it is a new and unproven endeavour that runs contrary to the established ways of working. Getting the business case over the line normally takes some evangelising: exuberant presentations stuffed with charts that go up and to the right. Dollar signs flash in executive eyes. Expectations have been set.
 
-As an industry, we don’t do ourselves any favours. 
+As an industry, we don’t do ourselves any favours.
 
-Vendors sell tools based on stories of famous tests that generated tens of millions of dollars in revenue. Agencies join in with case studies that parrot the implausible results of miraculous experiments that created outsized impact. 
+Vendors sell tools based on stories of famous tests that generated tens of millions of dollars in revenue. Agencies join in with case studies that parrot the implausible results of miraculous experiments that created outsized impact.
 
 Clients are hungry for results and sales teams at both agency and vendor are hungry to hit their targets. And they’ll promise the moon to get there, reality be damned.
 
@@ -126,4 +126,3 @@ You will stop yourself from doing plenty of dumb things.
 You’ll almost certainly undoubtedly unearth fascinating and highly profitable insights into customer behaviour. But the journey is long and taxing and littered with failed attempts, false starts and dead ends. To paraphrase John Ioannidis, optimisation is a noble endeavour but it’s also a low-yield endeavour. And we should be very comfortable with that fact.
 
 _Thanks to [David Mannheim](https://www.davidmannheim.com/), [Craig Sullivan](https://twitter.com/OptimiseOrDie), [Angelo Belardi](https://abelardi.com/), [Tom Critchlow](https://tomcritchlow.com/), [Ali Qasim Naqvi](https://aliqasnaqvi.medium.com/), [Michael Shafer](https://mscp.wordpress.com/) and [Stefan Thomke](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6566) for reviewing an earlier version of this article. They didn't all agree with my contentions but their feedback was invaluable for refining my thinking._
-
