@@ -9,21 +9,29 @@
 </div>
 </div>
 </div>
-<div class="container mb-3">
-<div class="row">
-<div class="col-6">
-<div class="container--mobile">
-<a href="/img/{{ imagePath }}" data-featherlight="image">
-<img class="img-full-width zoom" src="/img/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %}>
-</a>
-</div>
-</div>
-<div class="col-6">
-<p class="caption pr-3 pr-md-0">
-{{ include.caption }}
-</p>
 
-</div></div></div>
+
+
+<div class="container">
+	<div class="row my-5">
+		<div class="col-md-6">
+			<div class="container--mobile-full-width">
+				<a href="/img/{{ imagePath }}" data-featherlight="image">
+
+				<img class="img-full-width zoom mb-2" src="/img/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %}>
+			</a>
+
+			</div>
+
+		</div>
+		<div class="col-md-6">
+			<p class="caption pr-3 pr-md-0">
+				{{ include.caption }}
+			</p>
+		</div>
+	</div>
+	
+</div>
 <div class="container">
 	<div class="row">
 		<div class="col-md-10">
