@@ -7,11 +7,12 @@ excerpt: "If academic research science is having a crisis of integrity, then wha
 description: "If academic research science is having a crisis of integrity, then what can we expect from the closed door world of corporate A/B testing?"
 categories: [blog]
 image: "/img/crisis-of-optimisation-illustration.png"
+image-caption: "Illustration by @popiumworks"
 permalink: "/blog/the-crisis-of-optimisation"
 slug: "2021-05-31-the-crisis-of-optimisation.md"
+date: 2021-05-29 10:52:40
+last_modified_at: 2021-05-31 10:52:55
 ---
-
-{% include image-large.html name="crisis-of-optimisation-illustration.png" caption="Illustration by @popiumworks" alt="Illustration of website optimisation" %}
 
 Scientific truth is meant to be beyond reproach.
 
@@ -19,7 +20,7 @@ The idea that an experiment will produce the same results every time is a corner
 
 But science is in turmoil.
 
-Over the last fifteen years, successive waves of scandal has plunged science into disarray. Cases of dubious research methods, ‘data dredging’ and [even outright fraud](https://en.wikipedia.org/wiki/List_of_scientific_misconduct_incidents) have emerged with alarming regularity. Foundational studies [have been retracted](https://www.vox.com/2018/6/13/17449118/stanford-prison-experiment-fraud-psychology-replication) in droves and entire disciplines decimated. Even [Nobel Prize winners have been implicated](https://www.nature.com/articles/d41586-019-03755-2).
+Successive waves of scandal have cast a shadow over the legitimacy of scientific truth. Over the last fifteen years, dubious research methods, ‘data dredging’ and [even outright fraud](https://en.wikipedia.org/wiki/List_of_scientific_misconduct_incidents) have emerged with alarming regularity. Foundational studies [have been retracted](https://www.vox.com/2018/6/13/17449118/stanford-prison-experiment-fraud-psychology-replication) by the fistful and entire disciplines decimated. Even [Nobel Prize winners have been implicated](https://www.nature.com/articles/d41586-019-03755-2).
 
 If the transparent, peer reviewed world of academia is fraught with this crisis of integrity, then what can we expect from the vastly less scrutinised corporate ‘science’ of A/B testing? It’s not possible to tell exactly how bad it is, but the evidence suggests that overstated, sensationalised and misleading A/B test results are far more common than we’d like to admit.
 
@@ -37,7 +38,9 @@ One open sourced, collaborative effort among psychologists known as [The Reprodu
 
 {% include image-columns.html name="wp_ji_photo.png" caption="Ioanaddis hasn't had a great run of late. He's still got a cracking moustache, though." alt="Illustration of website optimisation" %}
 
-The problem brought to light by the replication crisis is not just that experiments cannot be replicated. Irreproducibility is only a symptom. It’s a polite and euphemistic proxy for the practice of bad science itself. The underlying causes are almost invariably the same: poor analysis, selectively reporting results, small sample sizes and low statistical power. But what causes scientists to violate the most fundamental obligations of their role as explorers of empirical truth?
+The problem brought to light by the replication crisis is not just that experiments cannot be replicated. Irreproducibility is only a symptom. It’s a polite and euphemistic proxy for the practice of bad science itself. The underlying causes are almost invariably the same: poor analysis, selectively reported results, small sample sizes and low statistical power. But what causes scientists to violate the most fundamental obligations of their role as explorers of empirical truth?
+
+## What are the underlying causes?
 
 In the wake of Ioanaddis’s paper, the discipline of Metascience has gained prominence. In basic terms, it is the science of science and it seeks to make sense of the problem of replication. Most of the research into the underlying causes identifies two significant factors. Scientists are incentivised for publishing new and novel research and they can reasonably expect to get away with distorting the truth to get there.
 
@@ -49,9 +52,9 @@ Published research is essential for career success in the scientific world. Ther
 
 In many fields, raw data is difficult to reproduce. This means that even if a researcher does falsify data, they’re unlikely to be caught. At the very least, they can plausibly claim innocence if contradictory findings do emerge.
 
-## Optimisation has the same issues (plus a confluence of compounding curveballs all of our own)
+## Optimisation has the same issues (plus a confluence of compounding curveballs of our own)
 
-While the ‘pressure to publish’ is unique to academia, the corporate world is grappling with the same underlying problem. Results or else. Flat or negative outcomes rarely create excitement of any kind, no matter how much potential they hold. My old colleague [Harry Brignull wrote about this](https://90percentofeverything.com/2016/07/12/the-thing-that-makes-user-research-unique/index.html) many years ago in reference to user research:
+While the ‘pressure to publish’ is unique to academia, the corporate world is grappling with the same underlying problem. Results or _else_. Flat or negative outcomes rarely create excitement of any kind, no matter how much potential they hold. My old colleague [Harry Brignull wrote about this](https://90percentofeverything.com/2016/07/12/the-thing-that-makes-user-research-unique/index.html) many years ago in reference to user research:
 
 > The thing about user research is that it delivers bad news every time. It depicts reality – the fact that you don’t control how your customers think, that they see things differently and that changes are needed if you’re ever going to please them. It doesn’t make you look good. That’s the whole point.
 
@@ -79,6 +82,10 @@ This pressure is compounded by a lack of experience on all sides. Practitioner, 
 
 Unlike scientists, most people working in the field have not been trained in experiment design and statistical analysis. There is no formally recognised training program or certification from a university or academic institution where you can learn how to run a good optimisation program.
 
+<div class="text-center my-5">
+            <h2 class="smaller mb-2">“The business world is still gaining basic literacy in the processes and methodology of running experiments at scale.”</h2>
+				</div>
+
 As a result, when businesses hire to scale up their optimisation efforts, they are confronted by a dearth of skilled applicants. This means that they frequently wind up hiring enthusiastic practitioners from related disciplines with the right keywords in their Linkedin profile. I should know, as this is precisely how I came to build the in-house optimisation program at Britain’s largest mobile telco back in 2013.
 
 The result of this kind of staffing is that many practitioners are learning on the job. Probably by making lots of mistakes (I know I did). Along the way, they will fall afoul of the bad practices that will undermine the quality of their experiments: stopping tests too soon, getting attached to concepts based on their opinions and beliefs, badly formed hypotheses and altogether worse. Bad experiments and unreliable results follow. In most cases, it’s not malicious. They just don’t know any better.
@@ -87,15 +94,13 @@ The wider inexperience and statistical illiteracy within the business world mean
 
 ### Unrealistic expectations + inexperience = trouble
 
-When inexperience and imposter syndrome meet high expectations and industry hype (’low hanging fruit’, ‘quick wins’ and million dollar button tests) things can go seriously awry. It’s this confluence of forces which result in test reports written by data science PhD’s that make bold recommendations from correlated but causally unrelated factors and blatantly ignore statistical best practice of any kind. I’ve seen this. I suspect it happens more than you might think.
-
-The slide toward overstated results, overlooking statistical significance and generally fudging the numbers in favour of a good story is slow and insidious.
+When inexperience and imposter syndrome meet high expectations and industry hype (’low hanging fruit’, ‘quick wins’ and million dollar button tests) things can go seriously awry. The slide toward overstated results, overlooking statistical significance and generally fudging the numbers in favour of a good story is slow and insidious.
 
 To protect the integrity and credibility of optimisation in your business, you need to sidestep the dopamine hit of miracle results in favour of the longer, more arduous but ultimately vastly more rewarding and remunerative trudge toward the peak of objective truth.
 
 We have no way of knowing the extent to which bogus optimisation is at large within the corporate world. Unlike academic research, there is no corpus for us to scrutinise of experiment plans outlining process, methodology and results.
 
-When I have had the opportunity to audit optimisation programs, my anecdotal experience suggests that the situation is not great. When I discussed this article with the principle of a CRO agency recently, he suggested it should open with the lines, “Worried about the legitimacy of experiments run within your business? _You should be_.”
+My own experience at auditing optimisation programs suggests that the situation is not great. When I discussed this article with the principle of a CRO agency recently, he suggested it should open with the lines, “Worried about the legitimacy of experiments run within your business? _You should be_.”
 
 ## Protect your program through training, scrutiny and realistic expectations 
 
@@ -113,6 +118,10 @@ No result should be presented without a P value or significance calculation. Any
 
 Even at 95% significance, there is a 5% possibility that your brilliant discovery was mere chance alone. Before you make investment decisions on the back of that result, make sure it is real. The simplest way to remove any lingering doubt is to re-run the experiment.
 
+<div class="text-center my-5">
+            <h2 class="smaller mb-2">“If you don’t have enough traffic to re-run a winning experiment, you don’t have enough traffic to have a serious optimisation program”</h2>
+				</div>
+
 Some practitioners will argue that replication is impractical due to the variable population of a large scale website experiment. This is hokum. If you cannot achieve a similar result in a follow-up experiment, you cannot expect to see that result when you build the change into your site.
 
 What if you don’t have enough traffic? If you don’t have enough traffic to re-run a winning experiment, you don’t have enough traffic to have a serious optimisation program.
@@ -121,8 +130,9 @@ At a fundamental level, so much of this problem exists due to the huge expectati
 sales pitch, you will be disappointed. [Experimentation is not for everyone](https://oliverpalmer.com/blog/you-probably-dont-need-ab-testing).
 
 You probably won’t miraculously happen upon a small change that generates gazillions of dollars of incremental revenue.
+
 You will stop yourself from doing plenty of dumb things.
 
 You’ll almost certainly undoubtedly unearth fascinating and highly profitable insights into customer behaviour. But the journey is long and taxing and littered with failed attempts, false starts and dead ends. To paraphrase John Ioannidis, optimisation is a noble endeavour but it’s also a low-yield endeavour. And we should be very comfortable with that fact.
 
-_Thanks to [David Mannheim](https://www.davidmannheim.com/), [Craig Sullivan](https://twitter.com/OptimiseOrDie), [Angelo Belardi](https://abelardi.com/), [Tom Critchlow](https://tomcritchlow.com/), [Ali Qasim Naqvi](https://aliqasnaqvi.medium.com/), [Michael Shafer](https://mscp.wordpress.com/) and [Stefan Thomke](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6566) for reviewing an earlier version of this article. They didn't all agree with my contentions but their feedback was invaluable for refining my thinking._
+_Thanks to [David Mannheim](https://www.davidmannheim.com/), [Craig Sullivan](https://twitter.com/OptimiseOrDie), [Angelo Belardi](https://abelardi.com/), [Tom Critchlow](https://tomcritchlow.com/), [Ali Qasim Naqvi](https://aliqasnaqvi.medium.com/), [Michael Shafer](https://mscp.wordpress.com/) and [Stefan Thomke](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6566) for reviewing an earlier version of this article._

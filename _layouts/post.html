@@ -9,17 +9,26 @@
 <div class="row">
 	<div class="col-lg-10">
 
+	
+
+
+
+			
+		
+
 				{% if page.subhead %}
 				<p class="lead-small">{{ page.subhead }}</p>
 				{% endif %}
-				{% if page.hero-cta %}
-				<a class="btn btn-primary btn-lg mt-1" href="/services/strategy-session" id="topStrategySession">{{ page.hero-cta }}</a>
-				{% endif %}
-				{% if page.cta-eyebrow %}
-				<p class="small">{{ page.eyebrow }}</p>
-				{% endif %}
 				<p class="text-muted">
-				{{ page.date | date: '%B %d, %Y' }}
+					{%- assign date_format = site.minima.date_format | default: '%b %-d, %Y' -%}
+
+				{%- if page.last_modified_at -%}
+{{ page.date | date: '%B %d, %Y' }} &middot; Last updated {{ page.last_modified_at | date: date_format }}
+			{%- else -%}
+			{{ page.date | date: '%B %d, %Y' }}
+
+			{%- endif -%}
+
 				</p>
 				</div>
 				</div>
@@ -29,10 +38,10 @@
 
 	<div class="container container--wider">
 							<figure>
-								<img class="img-full-width" src="{{ page.hero-img }}" alt="">
+								<img class="img-full-width" src="{{ page.image }}" alt="">
 								<div class="row">
 									<div class="col-lg-10">
-										<figcaption>{{ page.hero-img-caption }}</figcaption>
+										<figcaption>{{ page.image-caption }}</figcaption>
 									</div>
 								</div>
 							</figure>
@@ -43,12 +52,11 @@
 <section class="section pt-0">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-10">
+
+			<div class="col-lg-10">
 
 
 				{{ content }}
-
-
 
 			</div>
 
