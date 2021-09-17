@@ -1,127 +1,100 @@
 {% include header.html %}
 <div class="page-content">
-	<div class="hero">
-		<div class="container">
-			<div class="subsection">
-				{% if page.title %}
-				<h1>{{ page.title }}</h1>
-				{% endif %}
-				{% if page.hero-subhead %}
-				<p class="hero-text">{{ page.hero-subhead }}</p>
-				{% endif %}
+    <div class="hero">
+        <div class="container">
+            <div class="subsection">
+                {% if page.title %}
+                    <h1>{{ page.title }}</h1>
+                {% endif %}
+                {% if page.hero-subhead %}
+                    <p class="hero-text">{{ page.hero-subhead }}</p>
+                {% endif %}
 
-				{% if page.subhead %}
-				<p class="lead-small">{{ page.subhead }}</p>
-				{% endif %}
+                {% if page.subhead %}
+                    <p class="lead-small">{{ page.subhead }}</p>
+                {% endif %}
 
-				{% if page.hero-cta %}
-				<a class="btn btn-primary btn-lg mt-1" href="/services/strategy-session" id="topStrategySession">{{ page.hero-cta }}</a>
-				{% endif %}
-				{% if page.cta-eyebrow %}
-				<p class="small">{{ page.eyebrow }}</p>
-				{% endif %}
-				<table class="specs text-sm mt-4">
-					<tbody>
-						<tr>
-							<td>
-								<div class="specs__label">Typical duration</div>
-							</td>
-							<td>
-								<p>Two to three weeks</p>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<div class="specs__label">Typical cost</div>
-							</td>
-							<td>
-								<p>$8,000</p>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<div class="specs__label">Works well with</div>
-							</td>
-							<td>
-								<p><a href="/services">Qualitative review </a>
-									<br><a href="/services">Analytics tune-up</a>
-								</p>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-	</div>
+                {% if page.hero-cta %}
+                    <a class="btn btn-primary btn-lg mt-1" href="/services/strategy-session" id="topStrategySession">{{ page.hero-cta }}</a>
+                {% endif %}
+                {% if page.cta-eyebrow %}
+                    <p class="small">{{ page.eyebrow }}</p>
+                {% endif %}
+                <table class="specs text-sm mt-4">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="specs__label">Typical duration</div>
+                            </td>
+                            <td>
+                                <p>3-5 weeks</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="specs__label">Typical cost</div>
+                            </td>
+                            <td>
+                                <p>$20,000</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 
 
-	<!--.section-->
-	<section class="section pt-0">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-10">
+    <!--.section-->
+    <section class="section pt-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
 
 
-
-					{{ content }}
-				</div>
-			</div>
-			<div class="row my-4">
-				<div class="col-md-10">
-
-					<div class="alert alert-warning" role="alert">
-						<strong>FREE basic activation package</strong>
-						<br />
-						<br />
-						As an accredited FullStory Solutions Partner, I'm currently offering four FREE hours of strategy and analytics consulting for existing FullStory customers who are evaluating <em>Conversions</em>.
-						<br /><br />
-						I'll work with your team to identify and define the critical stages in your customer journey, then implement the custom events and watched elements that you need to start to unlock the power of <em>Conversions</em>.
-
-						<br /><br />Absolutely zero strings or obligations attached.</div>
-
-					<br />
+                    {{ content }}
+                </div>
+            </div>
+            <br/>
 
 
-					<h2 class="section-title">Want to find out more?</h2>
-					<p>Fill out your details below and I'll get back to you within 24 hours to organise a brief call.</p>
+            <h2 class="section-title">Want to find out more?</h2>
+            <p>Fill out your details below and I'll get back to you within one business day.</p>
 
 
+            <form class="text-sm" action="https://formspree.io/op@publicbasic.com" method="POST">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" placeholder="Your name" name="name"/>
+                        </div>
+                        <div class="form-group">
+                            <label>E-mail</label>
+                            <input type="email" placeholder="Your email address" name="_replyto"/>
+                        </div>
+                        <div class="form-group">
+                            <label>Telephone</label>
+                            <input type="tel" placeholder="Your best contact number" name="telephone"/>
+                        </div>
+                        <div class="form-group">
+                            <label>Website</label>
+                            <input type="text" placeholder="Your website URL" name="url"/>
+                        </div>
+                        <div class="form-group">
+                            <div class="d-flex align-items-center">
+                                <input class="btn btn-primary btn-lg" style="font-style: bold;" type="submit" value="Submit" id="strategySessionSubmit"/></div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
 
 
-					<form class="text-sm" action="https://formspree.io/op@publicbasic.com" method="POST">
-						<div class="row">
-							<div class="col-md-6">
-								<div class="form-group">
-									<label>Name</label>
-									<input type="text" placeholder="Your name" name="name" />
-								</div>
-								<div class="form-group">
-									<label>E-mail</label>
-									<input type="email" placeholder="Your email address" name="_replyto" />
-								</div>
-								<div class="form-group">
-									<label>Telephone</label>
-									<input type="tel" placeholder="Your best contact number" name="telephone" />
-								</div>
-								<div class="form-group">
-									<label>Website</label>
-									<input type="text" placeholder="Your website URL" name="url" />
-								</div>
-								<div class="form-group">
-									<div class="d-flex align-items-center">
-										<input class="btn btn-primary btn-lg" style="font-style: bold;" type="submit" value="Submit" id="strategySessionSubmit" /></div>
-								</div>
-					</form>
+        </section>
+        <!--/.section-->
+    </div>
 
-				</div>
-			</div>
+    <!--modals before footer-->
 
-
-
-	</section>
-	<!--/.section-->
-</div>
-
-<!--modals before footer-->
-
-{% include footer.html %}
+    {% include footer.html %}

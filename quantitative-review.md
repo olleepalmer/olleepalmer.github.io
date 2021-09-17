@@ -1,7 +1,7 @@
 ---
 layout: service
 title: "Quantitative review"
-subhead: "Draw back the curtain on your analytics data to find the biggest levers to pull to grow your online business"
+subhead: "Look under the hood of your business through analytics data to identify what's working, what's not and understand the changes you need to make to hit your growth targets"
 permalink: "/services/quantitative-review/"
 slug: "quantitative-review"
 ---
@@ -16,7 +16,7 @@ After undertaking a structured 1.5 hour long interview with you (and any other r
 
 **For a retailer** – Identified structural UX issues in the Checkout flow with significant conversion implications, discovered significant underperforming PPC segments.
 
-**For a car manufacturer** — Uncovered that majority of PPC traffic was being sent to a faulty campaign page with a 99% bounce rate. Proposed a solution that saved $1.2m/year in wasted media spend, identified candidates for A/B testing which ultimately resulted in a 25% lift in test drive requests.
+**For a car manufacturer** — Uncovered that majority of PPC traffic was being sent to a faulty campaign page with a 99% bounce rate. Proposed a solution that saved $1.2m/month in wasted media spend, identified candidates for A/B testing which ultimately resulted in a 25% lift in test drive requests.
 
 **For a superannuation fund** – Discovered that the method of reporting on their acquisition funnel was flawed, distorted and inaccurate with significant downstream impact across the business. Advised on implementing event- based tracking and filling other blindspots.
 
@@ -41,15 +41,14 @@ Typically, however, we will expect to cover some of the below:
 
 ## Who should do this?
 
-My typoical client for this work is at an inflection point in their business and is actively seeking opportunities for growth.
+My typical client for this work is at an inflection point in their business and is actively seeking growth opportunities.
 
 Beyond this, I'd suggest that you're a good candidate if more than one of the following apply to you:
 
 <ul class="list">
-<li><strong>You’re planning on re-platforming</strong> or making other significant changes to your tech stack but you're not sure where to start</li>
+<li><strong>You’re planning on redesigning or re-platforming</strong> or making other significant changes but you're not sure where to start</li>
 <li><strong>You spend over $5k/month on traffic</strong></li>
 <li><strong>You don’t trust your analytics data</strong></li>
-<li>You're not sure if your various agencies are giving you good value for money</li>
 </ul>
 
 ## How it works
